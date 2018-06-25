@@ -57,8 +57,8 @@
 
 ### Examples
 
-| :---  | :---   |
 | Input	| Output |
+| :---  | :---   |
 | 6     |
 | 3	| 1 1 2 4 7 13            |
 
@@ -72,13 +72,37 @@
 ### Hints
 
       • Use an array of integers to hold the sequence.
-
       • Initially seq[0] = 1
-
       • Use two nested loops:
-
             o Loop through all elements i = 1 … n 
-
             o Sum the elements i-k … i-1: seq[i] = sum(seq[i-k … i-1])
 
 ## 04.Triple Sum
+
+###### Write a program to read an array of integers and find all triples of elements a, b and c, such that a + b == c (where a stays to the left from b). Print “No” if no such triples exist.
+
+### Examples
+
+| Input	  | Output  |
+| :---    | :---    |
+|1 1 1 1  | No      |
+
+|4 2 8 6  |4 + 2 == 6 |
+|         |2 + 6 == 8 |
+
+|         |2 + 5 == 7 |
+| 2 7 5 0 |2 + 0 == 2 |
+|         |7 + 0 == 7 |
+|         |5 + 0 == 5 |
+
+|         |3 + 2 == 5 |
+|         |1 + 5 == 6 |
+|3 1 5 6 1 2 |1 + 1 == 2 |
+|         |1 + 2 == 3 |
+|         |5 + 1 == 6 |
+|         |1 + 2 == 3 |
+
+### Hints:
+      • Read the input numbers in array arr[].
+      • Use nested loops to generate all pairs {a, b}, such that 0 ? a < b < n.
+      • Check whether arr[] contains the sum arr[a] + arr[b].

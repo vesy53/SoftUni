@@ -31,7 +31,7 @@
 | 10    |             |
 | 20    | 30 20 10    |        
 | 30    |             |
-|-------|-------------|      
+| ----- | ----------- |
 | **4** |             |
 | -1    |             |
 | 20    | 5 99 20 -1  |         
@@ -48,3 +48,37 @@
 
       • Instead of reversing the array, you can just pass through the elements from the last (n-1) to the first (0) with a reverse for-loop.
 
+## 03.Last K Numbers Sums Sequence
+
+###### Enter two integers n and k. Generate and print the following sequence of n elements:
+          • The first element is: 1
+          • All other elements = sum of the previous k elements (if less than k are available, sum all of them)
+          • Example: n = 9, k = 5 ? 120 = 4 + 8 + 16 + 31 + 61
+
+### Examples
+
+| :---  | :---   |
+| Input	| Output |
+| 6     |
+| 3	| 1 1 2 4 7 13            |
+
+| 8     |
+| 2	| 1 1 2 3 5 8 13 21       |
+
+| 9     |
+| 5	| 1 1 2 4 8 16 31 61 120  |
+
+
+### Hints
+
+      • Use an array of integers to hold the sequence.
+
+      • Initially seq[0] = 1
+
+      • Use two nested loops:
+
+            o Loop through all elements i = 1 … n 
+
+            o Sum the elements i-k … i-1: seq[i] = sum(seq[i-k … i-1])
+
+## 04.Triple Sum

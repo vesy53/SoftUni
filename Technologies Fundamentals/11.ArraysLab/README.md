@@ -1,4 +1,4 @@
-# Lab: Arrays
+					# Lab: Arrays
 
 ## 1.Day of Week
 
@@ -14,8 +14,8 @@
 | 0	| Invalid Day! |
 
 Hints
-•	Use an array of strings holding the day names: {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}.
-•	Print the element at index (day-1) when it is in the range [1…7] or “Invalid Day!” otherwise.
+  • Use an array of strings holding the day names: {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}.
+  • Print the element at index (day-1) when it is in the range [1…7] or “Invalid Day!” otherwise.
 
 ## 2.Reverse an Array of Integers
 
@@ -29,6 +29,7 @@ Hints
 | 10    |             |
 | 20    |             |
 | 30    | 30 20 10    |
+|-------|-------------|
 | 4     |             |
 | -1    |             |
 | 20    |             |
@@ -37,8 +38,8 @@ Hints
 
 
 Hints
-•	First, read the number n.
-•	Allocate an array of n integers.
-•	Read the integers in a for-loop.
-•	Instead of reversing the array, you can just pass through the elements from the last (n-1) to the first (0) with a reverse for-loop.
+  • First, read the number n.
+  • Allocate an array of n integers.
+  • Read the integers in a for-loop.
+  • Instead of reversing the array, you can just pass through the elements from the last (n-1) to the first (0) with a reverse for-loop.
 

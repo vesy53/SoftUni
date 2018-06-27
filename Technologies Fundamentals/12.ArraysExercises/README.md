@@ -28,19 +28,19 @@ Learn Java or C#	| 0	| No common words at the left and right
 
 #### Examples
 
-Input	   |Output	|Comments
-:---       |:---        |:---
-3 2 4 -1   | 3 2 5 6    |rotated1[] = -1  3  2  4
-2	   |            |rotated2[] =  4 -1  3  2
-	   |            |sum[] =  3  2  5  6
------------|------------|---------------------------
-1 2 3      | 3 1 2      |rotated1[] = 3 1 2
-1	   |            |sum[] = 3 1 2
------------|------------|---------------------------
-1 2 3 4 5  |12 10 8 6 9 |rotated1[] =  5  1  2  3  4
-3	   |            |rotated2[] =  4  5  1  2  3
-           |            |rotated3[] =  3  4  5  1  2
-           |            |sum[] = 12 10  8  6  9
+Input	  |Output	|Comments
+:---      |:---        |:---
+3 2 4 -1  | 3 2 5 6    |rotated1[] = -1  3  2  4
+2	  |            |rotated2[] =  4 -1  3  2
+	  |            |sum[] =  3  2  5  6
+
+1 2 3     | 3 1 2      |rotated1[] = 3 1 2
+1	  |            |sum[] = 3 1 2
+
+          |            |rotated1[] =  5  1  2  3  4
+1 2 3 4 5 |12 10 8 6 9 |rotated2[] =  4  5  1  2  3
+3         |            |rotated3[] =  3  4  5  1  2
+          |            |sum[] = 12 10  8  6  9
 
 ### Hints
 
@@ -53,16 +53,16 @@ Input	   |Output	|Comments
 
 #### Examples
 
-Input	        | Output	|Comments
-:---            | :---          | :---
-5 **2 3** 6	| 7 9	        |5  6  +
-                |               |2  3  =
-                |               |7  9
-
-1 2 **3 4 5 6** 7 8|5 5 13 13	|2  1  8  7  +
-                |               |3  4  5  6  =
-                |               |5  5 13 13
-
+Input	                      | Output	      |Comments
+:---                          | :---          | :---
+5 **2 3** 6	              | 7 9	      |5  6  +
+                              |               |2  3  =
+                              |               |7  9
+---                           |---            |
+1 2 **3 4 5 6** 7 8           |5 5 13 13      |2  1  8  7  +
+                              |               |3  4  5  6  =
+                              |               |5  5 13 13
+---                           |---            |---
 4 3 -1 **2 5 0 1 9 8** 6 7 -2 |1 8 4 -1 16 14 |	-1  3  4 -2  7  6  +
                               |               |2  5  0  1  9  8  =
                               |               |1  8  4 -1 16 14
@@ -90,7 +90,7 @@ Input |	Output
 6     | 2 3 5
 25    |	2 3 5 7 11 13 17 19 23
 
-# 5. Compare Char Arrays
+# 05. Compare Char Arrays
 
 ### Compare two char arrays lexicographically (letter by letter).
 ### Print the them in alphabetical order, each on separate line.
@@ -108,14 +108,14 @@ a n n i e |peter
 a n n i e |an
 a n	  |annie
 ----------|------
-a b       |
-a b	  |
+a b       |ab
+a b	  |ab
 
-###Hints
+### Hints
 
-     • Compare the first letter of arr1[] and arr2[], if equal, compare the next letter, etc.
-     • If all letters are equal, the smaller array is the shorter.
-     • If all letters are equal and the array lengths are the same, the arrays are equal.
+      • Compare the first letter of arr1[] and arr2[], if equal, compare the next letter, etc.
+      • If all letters are equal, the smaller array is the shorter.
+      • If all letters are equal and the array lengths are the same, the arrays are equal.
 
 # 06. Max Sequence of Equal Elements
 
@@ -135,8 +135,8 @@ Input	                 | Output
       • Start with the sequence that consists of the first element: start=0, len=1.
       • Scan the elements from left to right, starting at the second element: pos=1…n-1.
            o At each step compare the current element with the element on the left.
-                  Same value **->** you have found a sequence longer by one **->** len++.
-                  Different value **->** start a new sequence from the current element: start=pos, len=1.
+                  Same value -> you have found a sequence longer by one -> len++.
+                  Different value -> start a new sequence from the current element: start=pos, len=1.
            o After each step remember the sequence it is found to be longest at the moment: bestStart=start, bestLen=len.
       • Finally, print the longest sequence by using bestStart and bestLen.
 
@@ -153,7 +153,7 @@ Input	                |Output
 **3 4 5 6**	        |3 4 5 6
 **0 1** 1 2 2 3 3	|0 1
 
-###Hints
+### Hints
 
       • Use the same algorithm like in the previous problem (Max Sequence of Equal Elements).
 
@@ -169,7 +169,8 @@ Input	                                 | Output |Comments
 :---                                     |:---    |:---
 **4** 1 1 **4** 2 3 **4 4** 1 2 **4** 9 3| 4	  |The number 4 is the most frequent (occurs 5 times)
 **2 2 2 2** 1 **2 2 2** 	         | 2	  |The number 2 is the most frequent (occurs 7 times)
-**7 7 7** 0 2 2 2 0 10 10 10	         | 7	  |The numbers 2, 7 and 10 have the same maximal frequence (each occurs 3 times). The leftmost of them is 7.
+**7 7 7** 0 2 2 2 0 10 10 10	         | 7	  |The numbers 2, 7 and 10 have the same maximal frequence 
+                                         |        |(each occurs 3 times). The leftmost of them is 7.
 
 ## 09. Index of Letters
 
@@ -183,7 +184,6 @@ abcz	|a -> 0
         |b -> 1
         |c -> 2
         |z -> 25
---------|-------
 softuni	|s -> 18
         |o -> 14
         |f -> 5

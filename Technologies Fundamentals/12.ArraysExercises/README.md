@@ -28,19 +28,19 @@ Learn Java or C#	| 0	| No common words at the left and right
 
 #### Examples
 
-Input	  |Output	|Comments
-:---      |:---        |:---
-3 2 4 -1  | 3 2 5 6    |rotated1[] = -1  3  2  4
-2	  |            |rotated2[] =  4 -1  3  2
-	  |            |sum[] =  3  2  5  6
-
-1 2 3     | 3 1 2      |rotated1[] = 3 1 2
-1	  |            |sum[] = 3 1 2
-
-          |            |rotated1[] =  5  1  2  3  4
-1 2 3 4 5 |12 10 8 6 9 |rotated2[] =  4  5  1  2  3
-3         |            |rotated3[] =  3  4  5  1  2
-          |            |sum[] = 12 10  8  6  9
+|Input	   |Output      |Comments
+|:---      |:---        |:---
+|3 2 4 -1  | 3 2 5 6    |rotated1[] = -1  3  2  4
+|2	   |            |rotated2[] =  4 -1  3  2
+|	   |            |sum[] =  3  2  5  6
+|---       |---         |---
+|1 2 3     | 3 1 2      |rotated1[] = 3 1 2
+|1	   |            |sum[] = 3 1 2
+|---       |---         |---
+|          |            |rotated1[] =  5  1  2  3  4
+|1 2 3 4 5 |12 10 8 6 9 |rotated2[] =  4  5  1  2  3
+|3         |            |rotated3[] =  3  4  5  1  2
+|          |            |sum[] = 12 10  8  6  9
 
 ### Hints
 
@@ -53,19 +53,19 @@ Input	  |Output	|Comments
 
 #### Examples
 
-Input	                      | Output	      |Comments
-:---                          | :---          | :---
-5 **2 3** 6	              | 7 9	      |5  6  +
-                              |               |2  3  =
-                              |               |7  9
----                           |---            |
-1 2 **3 4 5 6** 7 8           |5 5 13 13      |2  1  8  7  +
-                              |               |3  4  5  6  =
-                              |               |5  5 13 13
----                           |---            |---
-4 3 -1 **2 5 0 1 9 8** 6 7 -2 |1 8 4 -1 16 14 |	-1  3  4 -2  7  6  +
-                              |               |2  5  0  1  9  8  =
-                              |               |1  8  4 -1 16 14
+|Input	                       | Output	       |Comments            |
+|:---                          | :---          | :---               |
+|                              | 	       |5  6  +             |
+| 5 **2 3** 6                  | 7 9           |2  3  =             |
+|                              |               |7  9                |
+|---                           |---            |---                 |
+|1 2 **3 4 5 6** 7 8           |5 5 13 13      |2  1  8  7  +       |
+|                              |               |3  4  5  6  =       |
+|                              |               |5  5 13 13          |
+|---                           |---            |---                 |
+|4 3 -1 **2 5 0 1 9 8** 6 7 -2 |1 8 4 -1 16 14 |-1  3  4 -2  7  6  +|
+|                              |               |2  5  0  1  9  8  = |
+|                              |               |1  8  4 -1 16 14    |
 
 ### Hints
 
@@ -169,8 +169,7 @@ Input	                                 | Output |Comments
 :---                                     |:---    |:---
 **4** 1 1 **4** 2 3 **4 4** 1 2 **4** 9 3| 4	  |The number 4 is the most frequent (occurs 5 times)
 **2 2 2 2** 1 **2 2 2** 	         | 2	  |The number 2 is the most frequent (occurs 7 times)
-**7 7 7** 0 2 2 2 0 10 10 10	         | 7	  |The numbers 2, 7 and 10 have the same maximal frequence 
-                                         |        |(each occurs 3 times). The leftmost of them is 7.
+**7 7 7** 0 2 2 2 0 10 10 10	         | 7	  |The numbers 2, 7 and 10 have the same maximal frequence (each occurs 3 times). The leftmost of them is 7.
 
 ## 09. Index of Letters
 
@@ -178,19 +177,20 @@ Input	                                 | Output |Comments
 
 #### Examples
 
-Input   |Output
-:---    |:---
-abcz	|a -> 0
-        |b -> 1
-        |c -> 2
-        |z -> 25
-softuni	|s -> 18
-        |o -> 14
-        |f -> 5
-        |t -> 19
-        |u -> 20
-        |n -> 13
-        |i -> 8
+|Input   |Output  |
+|:---    |:---    |
+|abcz    |a -> 0  |
+|        |b -> 1  |
+|        |c -> 2  |
+|        |z -> 25 |
+|---     |---     |
+|softuni |s -> 18 |
+|        |o -> 14 |
+|        |f -> 5  |
+|        |t -> 19 |
+|        |u -> 20 |
+|        |n -> 13 |
+|        |i -> 8  |
 
 ## 10. Pairs by Difference
 
@@ -218,8 +218,7 @@ Input	      |Output  | Comments
 
 Input	                |Output	| Comments
 :---                    |:---   |:---
-1 2 3 3	                |2     	|At a[2] -> left sum = 3, right sum = 3
-                        |       |a[0] + a[1] = a[3]
+1 2 3 3	                |2     	|At a[2] -> left sum = 3, right sum = 3 a[0] + a[1] = a[3]
 ------------------------|-------|--------------------------------------
 	                |no	|At a[0] -> left sum = 0, right sum = 2
 1 2                     |       |At a[1] -> left sum = 1, right sum = 0

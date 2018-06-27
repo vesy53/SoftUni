@@ -15,7 +15,6 @@
 
 ### Hints
       • Use an array of strings holding the day names: {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}.
-
       • Print the element at index (day-1) when it is in the range [1…7] or “Invalid Day!” otherwise.
 
 ## 02.Reverse an Array of Integers
@@ -40,11 +39,8 @@
 ### Hints
 
       • First, read the number n.
-
       • Allocate an array of n integers.
-
       • Read the integers in a for-loop.
-
       • Instead of reversing the array, you can just pass through the elements from the last (n-1) to the first (0) with a reverse for-loop.
 
 ## 03.Last K Numbers Sums Sequence
@@ -104,8 +100,8 @@
 ## 05.Rounding Numbers Away from Zero
 
 ### Write a program to read an array of real numbers (space separated values), round them to the nearest integer in “away from 0” style and print the output as in the examples below.
-Rounding in “away from zero” style means:
-    • To round to the nearest integer, e.g. 2.9 ? 3; -1.75 ? -2
+### Rounding in “away from zero” style means:
+    • To round to the nearest integer, e.g. 2.9 -> 3; -1.75 -> -2  
     • In case the number is exactly in the middle of two integers (midpoint value), round it to the next integer which is away from the 0:
 
 #### Examples

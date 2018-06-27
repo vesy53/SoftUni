@@ -1,42 +1,41 @@
-# 					**Lab: Arrays**
+# **Lab: Arrays**
 
 ## 01.Day of Week
 
-###### Enter a day number [1…7] and print the day name (in English) or “Invalid Day!”. Use an array of strings.
+### Enter a day number [1…7] and print the day name (in English) or “Invalid Day!”. Use an array of strings.
 
-### Examples
+#### Examples
 
-| Input	| Output       |
-| :---  | :---         |
-| 1	| Monday       |
-| 2	| Tuesday      |
-| 7	| Sunday       |
-| 0	| Invalid Day! |
+ Input	| Output       
+ :---  | :---         
+ 1	| Monday       
+ 2	| Tuesday      
+ 7	| Sunday       
+ 0	| Invalid Day! 
 
 ### Hints
-
       • Use an array of strings holding the day names: {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}.
 
       • Print the element at index (day-1) when it is in the range [1…7] or “Invalid Day!” otherwise.
 
 ## 02.Reverse an Array of Integers
 
-###### Write a program to read an array of integers, reverse it and print its elements. The input consists of a number n (the number of elements) + n integers, each as a separate line. Print the output on a single line (space separated).
+### Write a program to read an array of integers, reverse it and print its elements. The input consists of a number n (the number of elements) + n integers, each as a separate line. Print the output on a single line (space separated).
 
-### Examples
+#### Examples
 
-| Input	| Output      |
-| :---  | :---        |
-| **3** |             |
-| 10    |             |
-| 20    | 30 20 10    |        
-| 30    |             |
-| ---   | ---         |
-| **4** |             |
-| -1    |             |
-| 20    | 5 99 20 -1  |         
-| 99    |             |
-| 5     |             |
+| Input	| Output      
+| :---  | :---        
+| **3** |             
+| 10    |             
+| 20    | 30 20 10            
+| 30    |             
+| ---   | ---         
+| **4** |             
+| -1    |             
+| 20    | 5 99 20 -1           
+| 99    |             
+| 5     |             
 
 ### Hints
 
@@ -50,23 +49,23 @@
 
 ## 03.Last K Numbers Sums Sequence
 
-###### Enter two integers n and k. Generate and print the following sequence of n elements:
+### Enter two integers n and k. Generate and print the following sequence of n elements:
           • The first element is: 1
           • All other elements = sum of the previous k elements (if less than k are available, sum all of them)
           • Example: n = 9, k = 5 ? 120 = 4 + 8 + 16 + 31 + 61
 
-### Examples
+#### Examples
 
-| Input	| Output |
-| :---  | :---   |
-| 6     |
-| 3	| 1 1 2 4 7 13            |
-| --- | --- |  
-| 8     |
-| 2	| 1 1 2 3 5 8 13 21       |
-| --- | --- |
-| 9     |
-| 5	| 1 1 2 4 8 16 31 61 120  |
+ Input	| Output 
+ :---  | :---   
+ 6     |
+ 3	| 1 1 2 4 7 13            
+ --- | --- | 
+ 8     |
+ 2	| 1 1 2 3 5 8 13 21       
+ --- | --- 
+ 9     |
+ 5	| 1 1 2 4 8 16 31 61 120  
 
 
 ### Hints
@@ -79,9 +78,9 @@
 
 ## 04.Triple Sum
 
-###### Write a program to read an array of integers and find all triples of elements a, b and c, such that a + b == c (where a stays to the left from b). Print “No” if no such triples exist.
+### Write a program to read an array of integers and find all triples of elements a, b and c, such that a + b == c (where a stays to the left from b). Print “No” if no such triples exist.
 
-### Examples
+#### Examples
 
 | Input	  | Output  |
 | :---    | :---    |
@@ -104,14 +103,12 @@
 
 ## 05.Rounding Numbers Away from Zero
 
-###### Write a program to read an array of real numbers (space separated values), round them to the nearest integer in “away from 0” style and print the output as in the examples below.
+### Write a program to read an array of real numbers (space separated values), round them to the nearest integer in “away from 0” style and print the output as in the examples below.
 Rounding in “away from zero” style means:
     • To round to the nearest integer, e.g. 2.9 ? 3; -1.75 ? -2
     • In case the number is exactly in the middle of two integers (midpoint value), round it to the next integer which is away from the 0:
 
-![away-from-zero](https://raw.githubusercontent.com/stefkavasileva/SoftUni-Software-Engineering/master/Programmin%20Fundamentals/Homeworks%20and%20Labs/images/away_from_zero.png)
-
-### Examples
+#### Examples
 
 | Input	| Output |
 | :---  | :---   |
@@ -134,18 +131,16 @@ Rounding in “away from zero” style means:
 
 # 06.Reverse an Array of Strings
 
-###### Write a program to read an array of strings, reverse it and print its elements. The input consists of a sequence of space separated strings. Print the output on a single line (space separated).
+### Write a program to read an array of strings, reverse it and print its elements. The input consists of a sequence of space separated strings. Print the output on a single line (space separated).
 
-## Examples
+#### Examples
 
 |Input	|Output|
 | :---  | :---  |
 |a b c d e |e d c b a|
 |-1 hi ho w |w ho hi -1|
 
-![exchange](https://raw.githubusercontent.com/stefkavasileva/SoftUni-Software-Engineering/master/Programmin%20Fundamentals/Homeworks%20and%20Labs/images/problem-6.png)
-
-## Hints
+### Hints
      • Read the array of strings.
      • Exchange the first element (at index 0) with the last element (at index n-1).
      • Exchange the second element (at index 1) with the element before the last (at index n-2).
@@ -154,9 +149,9 @@ Rounding in “away from zero” style means:
 
 # 07.Sum Arrays
 
-###### Write a program that reads two arrays of integers and sums them. When the arrays are not of the same size, duplicate the smaller array a few times.
+### Write a program that reads two arrays of integers and sums them. When the arrays are not of the same size, duplicate the smaller array a few times.
 
-## Examples
+#### Examples
 
 |Input	|Output	|Comments|
 | :---  | :---  | :---   |
@@ -172,16 +167,16 @@ Rounding in “away from zero” style means:
 2 3 1 4	  |      |2 3 1 4 +|
 |         |      |7 7 4 9|
 	
-## Hints
+### Hints
      • Assume the first array arr1 has len1 elements and the second arr2 has len2 elements.
      • The result array will have max(len1, len2) elements.
      • We sum array elements one by one (from the first to the last). To enable rotating (take the first element as next after the last), we use the position % length indexing: arr1[i % len1] and arr2[i % len2].
 
 # 08.Condense Array to Number
 
-###### Write a program to read an array of integers and condense them by summing adjacent couples of elements until a single integer is obtained. For example, if we have 3 elements {2, 10, 3}, we sum the first two and the second two elements and obtain {2+10, 10+3} = {12, 13}, then we sum again all adjacent elements and obtain {12+13} = {25}.
+### Write a program to read an array of integers and condense them by summing adjacent couples of elements until a single integer is obtained. For example, if we have 3 elements {2, 10, 3}, we sum the first two and the second two elements and obtain {2+10, 10+3} = {12, 13}, then we sum again all adjacent elements and obtain {12+13} = {25}.
 
-## Examples
+#### Examples
 
 |Input	|Output	|Comments|
 | :---  | :---  | :---   |
@@ -189,26 +184,24 @@ Rounding in “away from zero” style means:
 5 0 4 1 2|35	|5 0 4 1 2 **->** 5+0 0+4 4+1 1+2 **->** 5 4 5 3 **->** 5+4 4+5 5+3 **->** 9 9 8 **->** 9+9 9+8 **->** 18 17 **->** 18+17 **->** 35|
 |1	|1	|1 is already condensed to number|
 
-## Hints
+### Hints
 
-###### While we have more than one element in the array nums[], repeat the following:
+### While we have more than one element in the array nums[], repeat the following:
           • Allocate a new array condensed[] of size nums.Length-1.
           • Sum the numbers from nums[] to condensed[]:
                 o condensed[i] = nums[i] + nums[i+1]
           • nums[] = condensed[]
-###### The process is illustrated below:
-
-![problem-8](https://raw.githubusercontent.com/stefkavasileva/SoftUni-Software-Engineering/master/Programmin%20Fundamentals/Homeworks%20and%20Labs/images/problem-8.png)
+### The process is illustrated below:
 
 # 09.Extract Middle 1, 2 or 3 Elements
 
-###### Write a method to extract the middle 1, 2 or 3 elements from array of n integers and print them.
+### Write a method to extract the middle 1, 2 or 3 elements from array of n integers and print them.
           • n = 1 -> 1 element
           • even n -> 2 elements
           • odd n -> 3 elements
-###### Create a program that reads an array of integers (space separated values) and prints the middle elements in the format shown in the examples.
+### Create a program that reads an array of integers (space separated values) and prints the middle elements in the format shown in the examples.
 
-## Examples
+#### Examples
 
 |Input	|Output|
 | :---  | :--- |
@@ -217,7 +210,7 @@ Rounding in “away from zero” style means:
 |1 2 3 4 5 6 7|{ 3, 4, 5 }|
 |10 20 30 40 50 60 70 80|{ 40, 50 }|
 
-## Hints
+### Hints
      o Write different logic for each case (n = 1, even n, odd n)
      o n = 1 ? take the first element
      o odd n ? take elements n/2-1, n/2, n/2+1

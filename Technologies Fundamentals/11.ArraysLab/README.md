@@ -2,7 +2,7 @@
 
 ## 01.Day of Week
 
-###### Enter a day number [1…7] and print the day name (in English) or “Invalid Day!”. Use an array of strings.
+###### Enter a day number [1â€¦7] and print the day name (in English) or â€œInvalid Day!â€. Use an array of strings.
 
 ### Examples
 
@@ -15,9 +15,9 @@
 
 ### Hints
 
-      • Use an array of strings holding the day names: {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}.
+      â€¢ Use an array of strings holding the day names: {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}.
 
-      • Print the element at index (day-1) when it is in the range [1…7] or “Invalid Day!” otherwise.
+      â€¢ Print the element at index (day-1) when it is in the range [1â€¦7] or â€œInvalid Day!â€ otherwise.
 
 ## 02.Reverse an Array of Integers
 
@@ -40,20 +40,20 @@
 
 ### Hints
 
-      • First, read the number n.
+      â€¢ First, read the number n.
 
-      • Allocate an array of n integers.
+      â€¢ Allocate an array of n integers.
 
-      • Read the integers in a for-loop.
+      â€¢ Read the integers in a for-loop.
 
-      • Instead of reversing the array, you can just pass through the elements from the last (n-1) to the first (0) with a reverse for-loop.
+      â€¢ Instead of reversing the array, you can just pass through the elements from the last (n-1) to the first (0) with a reverse for-loop.
 
 ## 03.Last K Numbers Sums Sequence
 
 ###### Enter two integers n and k. Generate and print the following sequence of n elements:
-          • The first element is: 1
-          • All other elements = sum of the previous k elements (if less than k are available, sum all of them)
-          • Example: n = 9, k = 5 ? 120 = 4 + 8 + 16 + 31 + 61
+          â€¢ The first element is: 1
+          â€¢ All other elements = sum of the previous k elements (if less than k are available, sum all of them)
+          â€¢ Example: n = 9, k = 5 ? 120 = 4 + 8 + 16 + 31 + 61
 
 ### Examples
 
@@ -71,15 +71,15 @@
 
 ### Hints
 
-      • Use an array of integers to hold the sequence.
-      • Initially seq[0] = 1
-      • Use two nested loops:
-            o Loop through all elements i = 1 … n 
-            o Sum the elements i-k … i-1: seq[i] = sum(seq[i-k … i-1])
+      â€¢ Use an array of integers to hold the sequence.
+      â€¢ Initially seq[0] = 1
+      â€¢ Use two nested loops:
+            o Loop through all elements i = 1 â€¦ n 
+            o Sum the elements i-k â€¦ i-1: seq[i] = sum(seq[i-k â€¦ i-1])
 
 ## 04.Triple Sum
 
-###### Write a program to read an array of integers and find all triples of elements a, b and c, such that a + b == c (where a stays to the left from b). Print “No” if no such triples exist.
+###### Write a program to read an array of integers and find all triples of elements a, b and c, such that a + b == c (where a stays to the left from b). Print â€œNoâ€ if no such triples exist.
 
 ### Examples
 
@@ -104,10 +104,12 @@
 
 ## 05.Rounding Numbers Away from Zero
 
-###### Write a program to read an array of real numbers (space separated values), round them to the nearest integer in “away from 0” style and print the output as in the examples below.
-Rounding in “away from zero” style means:
-    • To round to the nearest integer, e.g. 2.9 ? 3; -1.75 ? -2
-    • In case the number is exactly in the middle of two integers (midpoint value), round it to the next integer which is away from the 0:
+###### Write a program to read an array of real numbers (space separated values), round them to the nearest integer in â€œaway from 0â€ style and print the output as in the examples below.
+Rounding in â€œaway from zeroâ€ style means:
+    â€¢ To round to the nearest integer, e.g. 2.9 ? 3; -1.75 ? -2
+    â€¢ In case the number is exactly in the middle of two integers (midpoint value), round it to the next integer which is away from the 0:
+
+![away-from-zero](https://raw.githubusercontent.com/stefkavasileva/SoftUni-Software-Engineering/master/Programmin%20Fundamentals/Homeworks%20and%20Labs/images/away_from_zero.png)
 
 ### Examples
 
@@ -126,9 +128,9 @@ Rounding in “away from zero” style means:
 |                      |0 => 0|
 
 ### Hints:
-      • Read the input numbers in array arr[].
-      • Use nested loops to generate all pairs {a, b}, such that 0 ? a < b < n.
-      • Check whether arr[] contains the sum arr[a] + arr[b].
+      â€¢ Read the input numbers in array arr[].
+      â€¢ Use nested loops to generate all pairs {a, b}, such that 0 ? a < b < n.
+      â€¢ Check whether arr[] contains the sum arr[a] + arr[b].
 
 # 06.Reverse an Array of Strings
 
@@ -141,12 +143,14 @@ Rounding in “away from zero” style means:
 |a b c d e |e d c b a|
 |-1 hi ho w |w ho hi -1|
 
+![exchange](https://raw.githubusercontent.com/stefkavasileva/SoftUni-Software-Engineering/master/Programmin%20Fundamentals/Homeworks%20and%20Labs/images/problem-6.png)
+
 ## Hints
-     • Read the array of strings.
-     • Exchange the first element (at index 0) with the last element (at index n-1).
-     • Exchange the second element (at index 1) with the element before the last (at index n-2).
-     • Continue the same way until the middle of the array is reached.
-     • Another, shorter approach, is to use the .Reverse() extension method from “System.Linq”.
+     â€¢ Read the array of strings.
+     â€¢ Exchange the first element (at index 0) with the last element (at index n-1).
+     â€¢ Exchange the second element (at index 1) with the element before the last (at index n-2).
+     â€¢ Continue the same way until the middle of the array is reached.      
+     â€¢ Another, shorter approach, is to use the .Reverse() extension method from â€œSystem.Linqâ€.
 
 # 07.Sum Arrays
 
@@ -169,9 +173,9 @@ Rounding in “away from zero” style means:
 |         |      |7 7 4 9|
 	
 ## Hints
-     • Assume the first array arr1 has len1 elements and the second arr2 has len2 elements.
-     • The result array will have max(len1, len2) elements.
-     • We sum array elements one by one (from the first to the last). To enable rotating (take the first element as next after the last), we use the position % length indexing: arr1[i % len1] and arr2[i % len2].
+     â€¢ Assume the first array arr1 has len1 elements and the second arr2 has len2 elements.
+     â€¢ The result array will have max(len1, len2) elements.
+     â€¢ We sum array elements one by one (from the first to the last). To enable rotating (take the first element as next after the last), we use the position % length indexing: arr1[i % len1] and arr2[i % len2].
 
 # 08.Condense Array to Number
 
@@ -188,18 +192,20 @@ Rounding in “away from zero” style means:
 ## Hints
 
 ###### While we have more than one element in the array nums[], repeat the following:
-          • Allocate a new array condensed[] of size nums.Length-1.
-          • Sum the numbers from nums[] to condensed[]:
+          â€¢ Allocate a new array condensed[] of size nums.Length-1.
+          â€¢ Sum the numbers from nums[] to condensed[]:
                 o condensed[i] = nums[i] + nums[i+1]
-          • nums[] = condensed[]
+          â€¢ nums[] = condensed[]
 ###### The process is illustrated below:
+
+![problem-8](https://raw.githubusercontent.com/stefkavasileva/SoftUni-Software-Engineering/master/Programmin%20Fundamentals/Homeworks%20and%20Labs/images/problem-8.png)
 
 # 09.Extract Middle 1, 2 or 3 Elements
 
 ###### Write a method to extract the middle 1, 2 or 3 elements from array of n integers and print them.
-          • n = 1 -> 1 element
-          • even n -> 2 elements
-          • odd n -> 3 elements
+          â€¢ n = 1 -> 1 element
+          â€¢ even n -> 2 elements
+          â€¢ odd n -> 3 elements
 ###### Create a program that reads an array of integers (space separated values) and prints the middle elements in the format shown in the examples.
 
 ## Examples

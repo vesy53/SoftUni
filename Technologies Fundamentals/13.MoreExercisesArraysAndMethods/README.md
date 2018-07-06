@@ -2,16 +2,16 @@
 
 ## Problem 1. Array Statistics
 
-### Write a program which receives array of integers (space-separated) and prints the minimum and maximum number, the sum of the elements and the average value.
+ Write a program which receives array of integers (space-separated) and prints the minimum and maximum number, the sum of the elements and the average value.
 
 #### Examples
 
-Input	        |Output	       |    Input	           |Output
-:---            |:---          | :---                      |:---
-2 3 4 5 6 1	|Min = 1       |-1 200 124123 -400 -124214 |Min = -124214
-                |Max = 6       |		           |Max = 124123			
-                |Sum = 21      |                           |Sum = -292
-                |Average = 3.5 |                           |Average = -58.4
+|Input	         |Output	|Input	                    |Output         |
+|:---            |:---          | :---                      |:---           |
+|2 3 4 5 6 1	 |Min = 1       |-1 200 124123 -400 -124214 |Min = -124214  |
+|                |Max = 6       |		            |Max = 124123   |
+|                |Sum = 21      |                           |Sum = -292	    |		
+|                |Average = 3.5 |                           |Average = -58.4|
 
 ## Problem 2. Manipulate Array
 
@@ -20,16 +20,16 @@ Input	        |Output	       |    Input	           |Output
        • Distinct – delete all non-unique elements from the array
        • Replace {index} {string} – replace the element at the given index with the string, which will be given to you
 
-#### Input
+### Input
        • On the first line, you will receive the string array
        • On the second line, you will receive n – the number of lines, which will follow
        • On the next n lines – you will receive commands
 
-#### Output
+### Output
 ### At the end print the array in the following format:
 **{1st element}, {2nd element}, {3rd element} … {nth element}**
 
-#### Constraints
+### Constraints
        • For separator will be used only single whitespace
        • n will be integer in the interval [1…100]
 
@@ -56,15 +56,15 @@ Replace 2 Charlie                          |
 
 ### Now we need to make our program safer and more user-friendly. Make the program print “Invalid input!” if we try to replace an element at a non-existent index or an invalid command is written on the console. Also make the program work until the command “END” is given as an input. 
 
-#### Input
+### Input
        • On the first line, you will receive the string array
        • On the next lines until you receive “END” – you will receive commands
 
-#### Output
+### Output
 At the end, print the array in the following format:
 **{1st element}, {2nd element}, {3rd element} … {nth element}**
 
-#### Constraints
+### Constraints
        • Only a single whitespace will be used for the separator.
        • n will be an integer in the interval [1…100]
 
@@ -81,7 +81,6 @@ Replace 0 Hello                           |
 END	                                  |
 ------------------------------------------|----------------------------
 Input	                                  |Output
-:---                                      |:---
 **Alpha Bravo Charlie Delta Echo Foxtrot**|Invalid input!
 Distinct                                  |Invalid input!
 Reverse                                   |Alpha, Charlie, Delta, Echo                  
@@ -98,17 +97,17 @@ END	                                  |
 Example: if we receive the array 10 20 30 40 20 30 40 and we receive on the next line the integer 20 we have to print the sum the elements 10 20 30 40, which is 100.
 If no such number exists in the array – print “No occurrences were found!”.
 
-#### Input
+### Input
        • On the first line, you will receive the integer array
        • On the next line, you will receive the number, which you have to search
 
-#### Output
+### Output
 If such number exists in the array – just print the sum.
 Otherwise, print **“No occurrences were found!”**
 
-#### Constraints
-• Only a single whitespace will be used for the separator.
-• The number will be integer in the interval [-2147483648…2147483647]
+### Constraints
+       • Only a single whitespace will be used for the separator.
+       • The number will be integer in the interval [-2147483648…2147483647]
 
 #### Examples
 
@@ -118,7 +117,6 @@ Input	             |Output
 3	             |
 ---------------------|--------------------------
 Input	             |Output
-:---                 |:---
 1 2 3 4 5 6 7 8 9 10 |No occurrences were found!
 20	             |
 
@@ -128,18 +126,23 @@ Input	             |Output
 On the first line, you will receive an array of strings with the possible ingredients. On the next line, you will receive an integer, which represents the length of the strings, which we will used in the recipe. 
 Your recipe should not use more than 10 ingredients. If you collect 10 ingredients stop the program and print the result.
 
-#### Input
+### Input
        • On the first line, you will receive the ingredients
        • On the second line, you will receive the searched length.
 
-#### Output
+### Output
+
 Every time you find a matching ingredient print:
+
 **Adding {name of the ingredient}.**
+
 Print the answer in the following format: 
+
 **Made pizza with total of {count of the ingredients} ingredients.**
+
 **The ingredients are: {1st ingredient}, {2nd ingredient}, … {nth ingredient}.**
 
-#### Constraints
+### Constraints
        • Only a single whitespace will be used for the separator.
        • The array will be with at most 100 elements long.
        • Each ingredient will be at most 50 characters long.
@@ -148,20 +151,18 @@ Print the answer in the following format:
 
 #### Examples
 
-Input	                                         |Output
-:---                                             |:---
-cheese flour tomato bread olives salami pepperoni|Adding cheese.
-6	                                         |Adding tomato.
-                                                 |Adding olives.
-                                                 |Adding salami.
-                                                 |Made pizza with total of 4 ingredients.
-                                                 |The ingredients are: cheese, tomato, olives, salami.
--------------------------------------------------|----------------------------------------------------
-Input                                            |Output
-:---                                             |:---
-cheese flour tomato bread olives salami pepperoni|Adding pepperoni.
-9	                                         |Made pizza with total of 1 ingredients.
-                                                 |The ingredients are: pepperoni.
+|Input	                          |Output                                              |
+|:---                             |:---                                                |
+|cheese flour tomato bread olives |Adding cheese.                                      |
+|salami pepperoni	          |Adding tomato.                                      |
+|6                                |Adding olives.                                      |   
+|                                 |Adding salami.                                      |
+|                                 |Made pizza with total of 4 ingredients.             |
+|                                 |The ingredients are: cheese, tomato, olives, salami.|
+|Input                            |Output                                              |
+|cheese flour tomato bread olives |Adding pepperoni.                                   |
+|salami pepperoni	          |Made pizza with total of 1 ingredients.             |
+| 9                               |The ingredients are: pepperoni.                     |
 
 ## Problem 6. Heists
 
@@ -170,7 +171,8 @@ On the first line, you will receive an array with two elements. The first elemen
 On each of the next lines, you will receive input in the format “{loot} {heist expenses}” until you receive the command “Jail Time”. The loot will be a string containing random characters. The jewels will be represented with the character “%” and the gold – with the character “$”. If you find either from the symbols it means you have found one of the goodies.
 Upon receiving “Jail Time” you have to calculate the total earnings and the total expenses from the heists. If the total earnings are more or equal to the total expenses print: “Heists will continue. Total earnings: {money earned}.”. Otherwise print: “Have to find another job. Lost: {money lost}.”.
 
-####Input
+### Input
+
       • On the first line, you will receive an array of integers with two elements.
             o The first element is the price of the jewels.
             o The second element is the price of the gold.
@@ -179,14 +181,15 @@ Upon receiving “Jail Time” you have to calculate the total earnings and the tota
             o The heist expenses will be an integer number.
       • The last line of the input will always be “Jail Time” – signaling the end of the input.
 
-#### Output
+### Output
+
 The output should consist of only one line:
-• If the total earnings are more or equal to the expenses print:
+     • If the total earnings are more or equal to the expenses print:
 “Heists will continue. Total earnings: {money earned}.”
-• Alternatively, if the expenses are more than the total earnings print:
+     • Alternatively, if the expenses are more than the total earnings print:
 “Have to find another job. Lost: {money lost}.”
 
-#### Constraints
+### Constraints
        • Only a single whitespace will be used for the separator.
        • The array will have at most 100 elements.
        • You will receive at most 20 heists.
@@ -196,25 +199,28 @@ The output should consist of only one line:
 
 #### Examples
 
-Input	    |Output	                              |Comments
-:---        |:---                                     |We have price of the jewels of 10 and price of the gold of 20. In the first heist, we found one jewel (total 10 10 20       |Heists will continue. Total earnings: 30.|earnings of 10), but the expenses are 50. 2nd heist -> 2 gold and 1 jewel -> total earnings = 50 + 10
-ASDA% 50    |                                         |(from the previous heist) and expenses of 10 + 50 (from previous heist) 3rd heist -> 2 gold -> total earnings = 	DaS@!%$$ 10 |	     		                      |100; total expenses: 10 + 60 = 70. Total: 100 (total earnings) – 70 (total expenses) = 30 
-$$ 10       |                                         |
-Jail Time   |                                         |		
-------------|-----------------------------------------|----------------------------------------------------------------------------------------------------------------
-Input	    |Output
-:---        |:---
-2000 10000  |Have to find another job. Lost: 101479000.
-ASDAs 500000|
-%ASD$ 1000000|
-$S$&*_ASD 1000|
-AF#^&*LP 20000|
-$ 100000000  |
-Jail Time    |
+|Input	        |Output	                     |Comments                                                                  |
+|:---           |:---                        |:---                                                                      |
+|10 20          |Heists will continue. Total |We have price of the jewels of 10 and price of the gold of 20.            |
+|ASDA% 50       |earnings: 30.               |In the first heist, we found one jewel (total earnings of 10),            | 
+|DaS@!%$$ 10    |                            |but the expenses are 50.                                                  |
+|$$ 10          |                            |2nd heist -> 2 gold and 1 jewel -> total earnings = 50 + 10               |
+|Jail Time      |                            |(from the previous heist) and expenses of 10 + 50 (from previous heist)   |
+|               |                            |3rd heist -> 2 gold -> total earnings = 100; total expenses: 10 + 60 = 70.|
+|               |                            |Total: 100 (total earnings) – 70 (total expenses) = 30                    |
+|Input          |	Output               |
+|2000 10000     |Have to find another job.   |
+|ASDAs 500000   |Lost: 101479000.            |
+|%ASD$ 1000000  |                            |
+|$S$&*_ASD 1000 |                            |
+||$ 100000000   |                            |
+|Jail Time      |                            |
 
-#### Hints
+
+### Hints
        • In C#, you can treat strings like arrays of chars and loop through every single element
        • In Java, you can take the length of the string, using String.length() and access the characters, using String.charAt(index)
+
 ## Problem 7. Inventory Matcher
 
 ### You will be given three arrays on different lines. The first one will contain strings, which will represent the name of products. Second one will contain longs and will represent the quantities of the products. The third one will contain double and represents the price of the product. 
@@ -222,12 +228,12 @@ After which, you will be given names of products on new lines, until you receive
 **{name of the product} costs: {price}; Available quantity: {quantity}**
 The names, prices and quantities of the products are in the same indices in the 3 arrays.
 
-#### Input
+### Input
        • On the first line, you will receive an array of strings, which represent the names of the products.
        • On the second line, you will receive an array of longs, which represent the quantities of the products.
        • On the third line, you will receive an array of decimals, which represent the prices of the products.
 
-#### Constraints
+### Constraints
        • The three arrays will always have the same length.
        • You will always receive existing products.
 
@@ -248,7 +254,7 @@ done                          |
 Nuts                          |
 done	                      |
 
-#### Hints                         
+### Hints                         
        • In C#, you can find the index of an element in an array with Array.IndexOf(array, element)
        • In Java, the simplest way to find the index of the element (without external libraries) will be to loop through the array.
 
@@ -263,12 +269,12 @@ Format the price to the 2nd decimal place. Do not forget to decrease the quantit
 If you do not have enough quantities print:
 **We do not have enough {product name}**
 
-#### Input
+### Input
        • On the first line, you will receive array of strings, which represent the names of the products.
        • On the second line, you will receive array of longs, which represent the quantities of the products.
        • On the third line, you will receive array of decimals, which represent the prices of the products.
 
-#### Constraints
+### Constraints
        • The name and price arrays will always have the same length.
        • You will always receive existing products
 
@@ -299,14 +305,14 @@ Example: We have the array [3 7 12 2 10]. We start from 3 and move 3 indices to 
 
 3	|7	|12	|2	|10
 
-#### Input
+### Input
 The input consists of single line, which will be an array of integers.
 
-#### Constraints
+### Constraints
        • The array will have at most 50 elements
        • The elements in the array will be in the interval [1…50]
 
-#### Examples
+### Examples
 
 Input	        |Output		|Input	         |  Output
 :---            |:---           |:---            |

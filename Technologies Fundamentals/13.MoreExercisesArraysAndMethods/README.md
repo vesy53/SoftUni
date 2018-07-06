@@ -2,7 +2,7 @@
 
 ## Problem 1. Array Statistics
 
- Write a program which receives array of integers (space-separated) and prints the minimum and maximum number, the sum of the elements and the average value.
+ Write a program which receives array of **integers (space-separated)** and prints the **minimum** and **maximum number**, the **sum** of the elements and the **average** value.
 
 #### Examples
 
@@ -15,23 +15,26 @@
 
 ## Problem 2. Manipulate Array
 
- You will receive an array of strings and you have to execute some command upon it. You can receive three types of commands: 
-       • Reverse – reverse the array
-       • Distinct – delete all non-unique elements from the array
-       • Replace {index} {string} – replace the element at the given index with the string, which will be given to you
+ You will receive an **array of strings** and you have to execute some **command** upon it. You can receive **three** types of **commands**: 
+
+       • **Reverse – reverse** the array
+
+       • **Distinct – delete** all non-unique elements from the array
+      
+       • **Replace {index} {string} – replace** the element at the given **index** with the **string**, which will be given to you
 
 ### Input
-       • On the first line, you will receive the string array
-       • On the second line, you will receive n – the number of lines, which will follow
-       • On the next n lines – you will receive commands
+       • On the **first line**, you will receive the **string array**
+       • On the **second line**, you will receive **n** – the number of **lines**, which will **follow**
+       • On the next **n lines** – you will receive **commands**
 
 ### Output
  At the end print the array in the following format:
 **{1st element}, {2nd element}, {3rd element} … {nth element}**
 
 ### Constraints
-       • For separator will be used only single whitespace
-       • n will be integer in the interval [1…100]
+       • For **separator** will be used only **single whitespace**
+       • **n** will be **integer** in the interval [1…100]
 
 #### Examples
 
@@ -78,7 +81,6 @@ Replace 7 Hello                           |
 Replace -5 Hello                          |
 Replace 0 Hello                           |
 END	                                  |
-------------------------------------------|----------------------------
 Input	                                  |Output
 **Alpha Bravo Charlie Delta Echo Foxtrot**|Invalid input!
 Distinct                                  |Invalid input!

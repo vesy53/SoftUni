@@ -15,7 +15,7 @@
 
 ## Problem 2. Manipulate Array
 
-### You will receive an array of strings and you have to execute some command upon it. You can receive three types of commands: 
+ You will receive an array of strings and you have to execute some command upon it. You can receive three types of commands: 
        • Reverse – reverse the array
        • Distinct – delete all non-unique elements from the array
        • Replace {index} {string} – replace the element at the given index with the string, which will be given to you
@@ -26,7 +26,7 @@
        • On the next n lines – you will receive commands
 
 ### Output
-### At the end print the array in the following format:
+ At the end print the array in the following format:
 **{1st element}, {2nd element}, {3rd element} … {nth element}**
 
 ### Constraints
@@ -53,8 +53,7 @@ Reverse                                    |
 Replace 2 Charlie                          |
 
 ## Problem 3. Safe Manipulation
-
-### Now we need to make our program safer and more user-friendly. Make the program print “Invalid input!” if we try to replace an element at a non-existent index or an invalid command is written on the console. Also make the program work until the command “END” is given as an input. 
+ Now we need to make our program safer and more user-friendly. Make the program print “Invalid input!” if we try to replace an element at a non-existent index or an invalid command is written on the console. Also make the program work until the command “END” is given as an input. 
 
 ### Input
        • On the first line, you will receive the string array
@@ -93,7 +92,7 @@ END	                                  |
 
 ## Problem 4. Grab and Go
 
-### Write a program, which receives an array of integers and an integer as input. Find the last occurrence of the integer in the given array and print the sum of all elements before the number. 
+ Write a program, which receives an array of integers and an integer as input. Find the last occurrence of the integer in the given array and print the sum of all elements before the number. 
 Example: if we receive the array 10 20 30 40 20 30 40 and we receive on the next line the integer 20 we have to print the sum the elements 10 20 30 40, which is 100.
 If no such number exists in the array – print “No occurrences were found!”.
 
@@ -115,14 +114,13 @@ Input	             |Output
 :---                 |:---
 1 3 5 7 12 2 3 5 12  |30
 3	             |
----------------------|--------------------------
 Input	             |Output
 1 2 3 4 5 6 7 8 9 10 |No occurrences were found!
 20	             |
 
 ## Problem 5. Pizza Ingredients
 
-### You manage your own pizza restaurant and you are in charge of the orders. Your pizza is made only from ingredients, which have a specific length.
+ You manage your own pizza restaurant and you are in charge of the orders. Your pizza is made only from ingredients, which have a specific length.
 On the first line, you will receive an array of strings with the possible ingredients. On the next line, you will receive an integer, which represents the length of the strings, which we will used in the recipe. 
 Your recipe should not use more than 10 ingredients. If you collect 10 ingredients stop the program and print the result.
 
@@ -166,7 +164,7 @@ Print the answer in the following format:
 
 ## Problem 6. Heists
 
-### You are the main accountant for a group of bandits, whose main line of work is robbing banks and stores. Your job is to calculate the score from the heist, calculating the price of the loot and taking the expenses into account.
+ You are the main accountant for a group of bandits, whose main line of work is robbing banks and stores. Your job is to calculate the score from the heist, calculating the price of the loot and taking the expenses into account.
 On the first line, you will receive an array with two elements. The first element represents the price of the jewels and the second – the price of the gold.
 On each of the next lines, you will receive input in the format “{loot} {heist expenses}” until you receive the command “Jail Time”. The loot will be a string containing random characters. The jewels will be represented with the character “%” and the gold – with the character “$”. If you find either from the symbols it means you have found one of the goodies.
 Upon receiving “Jail Time” you have to calculate the total earnings and the total expenses from the heists. If the total earnings are more or equal to the total expenses print: “Heists will continue. Total earnings: {money earned}.”. Otherwise print: “Have to find another job. Lost: {money lost}.”.
@@ -184,10 +182,12 @@ Upon receiving “Jail Time” you have to calculate the total earnings and the tota
 ### Output
 
 The output should consist of only one line:
+
      • If the total earnings are more or equal to the expenses print:
-“Heists will continue. Total earnings: {money earned}.”
+**“Heists will continue. Total earnings: {money earned}.”**
+
      • Alternatively, if the expenses are more than the total earnings print:
-“Have to find another job. Lost: {money lost}.”
+**“Have to find another job. Lost: {money lost}.”**
 
 ### Constraints
        • Only a single whitespace will be used for the separator.
@@ -213,7 +213,7 @@ The output should consist of only one line:
 |ASDAs 500000   |Lost: 101479000.            |
 |%ASD$ 1000000  |                            |
 |$S$&*_ASD 1000 |                            |
-||$ 100000000   |                            |
+|$ 100000000    |                            |
 |Jail Time      |                            |
 
 
@@ -223,7 +223,7 @@ The output should consist of only one line:
 
 ## Problem 7. Inventory Matcher
 
-### You will be given three arrays on different lines. The first one will contain strings, which will represent the name of products. Second one will contain longs and will represent the quantities of the products. The third one will contain double and represents the price of the product. 
+ You will be given three arrays on different lines. The first one will contain strings, which will represent the name of products. Second one will contain longs and will represent the quantities of the products. The third one will contain double and represents the price of the product. 
 After which, you will be given names of products on new lines, until you receive the command “done”. For each given product name print:
 **{name of the product} costs: {price}; Available quantity: {quantity}**
 The names, prices and quantities of the products are in the same indices in the 3 arrays.
@@ -241,7 +241,7 @@ The names, prices and quantities of the products are in the same indices in the 
 
 Input	                      |Output
 :---                          |:---
-**Bread Juice Fruits Lemons **|Bread costs: 2.34; Available quantity: 10
+**Bread Juice Fruits Lemons** |Bread costs: 2.34; Available quantity: 10
 **10 50 20 30**               |Juice costs: 1.23; Available quantity: 50
 **2.34 1.23 3.42 1.50**       |
 Bread                         |
@@ -260,7 +260,7 @@ done	                      |
 
 ## Problem 8. * Upgraded Matcher
 
-### For this task, you can use your solution from Inventory Matcher. You will again receive 3 arrays – one with strings, one with longs and one with decimals. Again, the price and quantity correspond to a name, which is located on same index as the name.
+ For this task, you can use your solution from Inventory Matcher. You will again receive 3 arrays – one with strings, one with longs and one with decimals. Again, the price and quantity correspond to a name, which is located on same index as the name.
 This time only the arrays containing the names and the array containing the prices will have the same length. If in the quantities array there is no index, which corresponds to the name, you should assume the quantity is 0.
 On top of that the products, which you receive after the arrays will contain not only a string for the name, but also a long, which is the quantity that must be ordered. 
 If you have enough quantity, calculate the total price by multiplying the ordered quantity times the price and print it in the following format:
@@ -300,10 +300,8 @@ done	                          |
 
 ## Problem 9. * Jump Around
 
-### You will receive an integer array from the console. You start from the beginning of the array and try to move right by a step, equal to the value at position 0. If that is possible you should collect the value from the index on which you landed, and try to move to the right by its value, if that is not possible – try to move to the left. If that is also not possible stop the program and print the sum of the collected values. Example:
+ You will receive an integer array from the console. You start from the beginning of the array and try to move right by a step, equal to the value at position 0. If that is possible you should collect the value from the index on which you landed, and try to move to the right by its value, if that is not possible – try to move to the left. If that is also not possible stop the program and print the sum of the collected values. Example:
 Example: We have the array [3 7 12 2 10]. We start from 3 and move 3 indices to 2. We have to move 2 indices, but we can’t move to the right, so we move to the left to 7. From there we cannot move anywhere and we stop the program and we print the sum of the collected cells: 3 + 2 + 7 = 12
-
-3	|7	|12	|2	|10
 
 ### Input
 The input consists of single line, which will be an array of integers.
@@ -314,9 +312,9 @@ The input consists of single line, which will be an array of integers.
 
 ### Examples
 
-Input	        |Output		|Input	         |  Output
-:---            |:---           |:---            |
-10 50 7 30 8 5	|10		|2 3 5 7 5 4 8 4 |18
+|Input	        |Output		|Input	         |Output|
+|:---           |:---           |:---            |:---  |
+|10 50 7 30 8 5	|10		|2 3 5 7 5 4 8 4 |18    |
 
 
 	

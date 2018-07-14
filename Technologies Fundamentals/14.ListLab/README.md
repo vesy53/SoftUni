@@ -2,7 +2,7 @@
 
 ## 1. Remove Negatives and Reverse
 
-Read a list of integers, remove all negative numbers from it and print the remaining elements in reversed order. In case of no elements left in the list, print ìemptyî.
+Read a list of integers, remove all negative numbers from it and print the remaining elements in reversed order. In case of no elements left in the list, print ‚Äúempty‚Äù.
 
 #### Examples
 
@@ -14,43 +14,42 @@ Input	           |Output
 
 ### Hints
 
-      ï Read a text line from the console, split it by space, parse the obtained items as integers and convert them to list of integers.
-      ï Create a new empty list for the results.
-      ï Scan the input list from the end to the beginning. Check each element and append all non-negative elements to the result list.
-      ï Finally, print the results list (at a single line holding space-separated numbers).
+      ‚Ä¢ Read a text line from the console, split it by space, parse the obtained items as integers and convert them to list of integers.
+      ‚Ä¢ Create a new empty list for the results.
+      ‚Ä¢ Scan the input list from the end to the beginning. Check each element and append all non-negative elements to the result list.
+      ‚Ä¢ Finally, print the results list (at a single line holding space-separated numbers).
 
 ## 2. Append Lists
 
 Write a program to append several lists of numbers.
 
-      ï Lists are separated by ë|í.
-      ï Values are separated by spaces (ë í, one or several)
-      ï Order the lists from the last to the first, and their values from left to right.
+      ‚Ä¢ Lists are separated by ‚Äò|‚Äô.
+      ‚Ä¢ Values are separated by spaces (‚Äò ‚Äô, one or several)
+      ‚Ä¢ Order the lists from the last to the first, and their values from left to right.
 
 #### Examples
 
-|Input	                |Output         |
+|Input	            |Output         |
 |:---                   |:---           |
-|1 2 3 |4 5 6 |  7  8	|7 8 4 5 6 1 2 3|
-|-----------------------|---------------|
-|7 | 4  5|1 0| 2 5 |3	|3 2 5 1 0 4 5 7|
-|-----------------------|---------------|
-|1| 4 5 6 7  |  8 9	|8 9 4 5 6 7 1  |
-|-----------------------|---------------|
+|1 2 3 pipe4 5 6 pipe  7  8	|7 8 4 5 6 1 2 3|
+|7 pipe 4  5pipe1 0pipe 2 5 pipe3   |3 2 5 1 0 4 5 7|
+|1pipe 4 5 6 7  pipe  8 9     |8 9 4 5 6 7 1  |
+
+### Attention! In INPUT the **pipe** is supposed to be replaced with "|"
 
 ### Hints
-      ï Create a new empty list for the results.
-      ï Split the input by ë|í into array of tokens.
-      ï Pass through each of the obtained tokens from tight to left.
+      ‚Ä¢ Create a new empty list for the results.
+      ‚Ä¢ Split the input by ‚Äò|‚Äô into array of tokens.
+      ‚Ä¢ Pass through each of the obtained tokens from tight to left.
              o For each token, split it by space and append all non-empty tokens to the results.
-      ï Print the results.
+      ‚Ä¢ Print the results.
 
 ## 3. Sum Adjacent Equal Numbers
 
 Write a program to sum all adjacent equal numbers in a list of decimal numbers, starting from left to right.
 
-      ï After two numbers are summed, the obtained result could be equal to some of its neighbors and should be summed as well (see the examples below).
-      ï Always sum the leftmost two equal neighbors (if several couples of equal neighbors are available).
+      ‚Ä¢ After two numbers are summed, the obtained result could be equal to some of its neighbors and should be summed as well (see the examples below).
+      ‚Ä¢ Always sum the leftmost two equal neighbors (if several couples of equal neighbors are available).
 
 #### Examples
 
@@ -72,9 +71,9 @@ Write a program to sum all adjacent equal numbers in a list of decimal numbers, 
 
 Read a text, split it into words and distribute them into 3 lists.
 
-       ï Lower-case words like ìprogrammingî, ìatî and ìdatabasesî ñ consist of lowercase letters only.
-       ï Upper-case words like ìPHPî, ìJSî and ìSQLî ñ consist of uppercase letters only.
-       ï Mixed-case words like ìC#î, ìSoftUniî and ìJavaî ñ all others.
+       ‚Ä¢ Lower-case words like ‚Äúprogramming‚Äù, ‚Äúat‚Äù and ‚Äúdatabases‚Äù ‚Äì consist of lowercase letters only.
+       ‚Ä¢ Upper-case words like ‚ÄúPHP‚Äù, ‚ÄúJS‚Äù and ‚ÄúSQL‚Äù ‚Äì consist of uppercase letters only.
+       ‚Ä¢ Mixed-case words like ‚ÄúC#‚Äù, ‚ÄúSoftUni‚Äù and ‚ÄúJava‚Äù ‚Äì all others.
 
 Use the following **separators** between the words: , ; : . ! ( ) " ' \ / [ ] space
 
@@ -90,15 +89,15 @@ databases, AJAX, etc.	            |Upper-case: PHP, JS, HTML, CSS, SQL, AJAX
 
 #### Hints
 
-       ï Split the input text using the above described separators.
-       ï Process the obtained list of words one by one.
-       ï Create 3 lists of words (initially empty): lowercase words, mixed-case words and uppercase words.
-       ï Check each word and append it to one of the above 3 lists:
+       ‚Ä¢ Split the input text using the above described separators.
+       ‚Ä¢ Process the obtained list of words one by one.
+       ‚Ä¢ Create 3 lists of words (initially empty): lowercase words, mixed-case words and uppercase words.
+       ‚Ä¢ Check each word and append it to one of the above 3 lists:
             o Count the lowercase letters and uppercase letters.
             o If all letters are lowercase, append the word to the lowercase list.
             o If all letters are uppercase, append the word to the uppercase list.
             o Otherwise the word is considered mixed-case ? append it to the mixed-case list.
-       ï Print the obtained 3 lists as shown in the example above.
+       ‚Ä¢ Print the obtained 3 lists as shown in the example above.
 
 ## 5. Sort Numbers
 
@@ -113,7 +112,7 @@ Input	|Output
 
 ### Hints
 
-      ï Use the built-in method List<T>.Sort().
+      ‚Ä¢ Use the built-in method List<T>.Sort().
 
 ## 6. Square Numbers
 
@@ -128,14 +127,14 @@ Input	                                          |Output
 
 ### Hints
 
-       ï To find out whether an integer is ìsquare numberî, check whether its square root is integer number (has no fractional part):
-             o if (vnum == (int)vnum) Ö
-       ï To order the results list in descending order use sorting by lambda function:
+       ‚Ä¢ To find out whether an integer is ‚Äúsquare number‚Äù, check whether its square root is integer number (has no fractional part):
+             o if (vnum == (int)vnum) ‚Ä¶
+       ‚Ä¢ To order the results list in descending order use sorting by lambda function:
              o squareNums.Sort((a, b) => b.CompareTo(a));
 
 ## 7. Count Numbers
 
-Read a list of integers in range [0Ö1000] and print them in ascending order along with their number of occurrences.
+Read a list of integers in range [0‚Ä¶1000] and print them in ascending order along with their number of occurrences.
 
 #### Examples
 
@@ -150,40 +149,38 @@ Read a list of integers in range [0Ö1000] and print them in ascending order alon
 |                |10 -> 3 |
 
 ### Hints
-
-Several algorithms can solve this problem:
-
-   ï Use an array count[0Ö1000] to count in counts[x] the occurrences of each element x.
-   ï Sort the numbers and count occurrences of each number.
-   ï Use a dictionary counts<int, int> to count in counts[x] the occurrences of each element x.
+   Several algorithms can solve this problem:
+   ‚Ä¢ Use an array count[0‚Ä¶1000] to count in counts[x] the occurrences of each element x.
+   ‚Ä¢ Sort the numbers and count occurrences of each number.
+   ‚Ä¢ Use a dictionary counts<int, int> to count in counts[x] the occurrences of each element x.
 
 ### Counting Occurrences Using Array
 
       1. Read the input elements in array of integers nums[].
       2. Assume max holds the largest element in nums[].
-            ï max = nums.Max()
-      3. Allocate an array counts[0 Ö max+1].
-            ï It will hold for each number x its number of occurrences counts[x].
+            ‚Ä¢ max = nums.Max()
+      3. Allocate an array counts[0 ‚Ä¶ max+1].
+            ‚Ä¢ It will hold for each number x its number of occurrences counts[x].
       4. Scan the input elements and for each element x increase counts[x].
-            ï For each value v in [0Ömax], print v -> count[v].
-            ï Skip all values which do not occur in nums[], i.e. counts[v] == 0.
+            ‚Ä¢ For each value v in [0‚Ä¶max], print v -> count[v].
+            ‚Ä¢ Skip all values which do not occur in nums[], i.e. counts[v] == 0.
 
 This algorithm has a serious drawback:
      
-     ï It depends on mapping numbers to array indexes.
-     ï It will work well for input values in the range [0Ö1000].
-     ï It will not work for very large and very small values, e.g. if the input holds -100 000 000 or 100 000 000.
-     ï It will not work for real numbers, e.g. 3.14 or 2.5.
+     ‚Ä¢ It depends on mapping numbers to array indexes.
+     ‚Ä¢ It will work well for input values in the range [0‚Ä¶1000].
+     ‚Ä¢ It will not work for very large and very small values, e.g. if the input holds -100 000 000 or 100 000 000.
+     ‚Ä¢ It will not work for real numbers, e.g. 3.14 or 2.5.
 
 ### Counting Occurrences by After Sorting
 
      1. Read the input elements in array of integers nums[]. Example: {8, 2, 2, 8, 2, 2, 3, 7}.
      2. Sort nums[] in increasing order: {2, 2, 2, 2, 3, 7, 8, 8}. Now find all subsequences of equal numbers.
      3. Scan the numbers from left to right. Count how many times each number occurs.
-           ï Start at count = 1.
-           ï While the next number on the right is the same as the current number, increase count and proceed to the next number.
-           ï When the next number on the right is different (or there is no next number), print the current number and its count.
-           ï Continue scanning from the next number on the right.
+           ‚Ä¢ Start at count = 1.
+           ‚Ä¢ While the next number on the right is the same as the current number, increase count and proceed to the next number.
+           ‚Ä¢ When the next number on the right is different (or there is no next number), print the current number and its count.
+           ‚Ä¢ Continue scanning from the next number on the right.
 
 This algorithm will work correctly for real numbers and very large numbers. It does not depend on mapping numbers to array indexes.
 

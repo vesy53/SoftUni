@@ -149,10 +149,11 @@ Read a list of integers in range [0…1000] and print them in ascending order al
 |                |10 -> 3 |
 
 ### Hints
+
    Several algorithms can solve this problem:
-   • Use an array count[0…1000] to count in counts[x] the occurrences of each element x.
-   • Sort the numbers and count occurrences of each number.
-   • Use a dictionary counts<int, int> to count in counts[x] the occurrences of each element x.
+      • Use an array count[0…1000] to count in counts[x] the occurrences of each element x.
+      • Sort the numbers and count occurrences of each number.
+      • Use a dictionary counts<int, int> to count in counts[x] the occurrences of each element x.
 
 ### Counting Occurrences Using Array
 

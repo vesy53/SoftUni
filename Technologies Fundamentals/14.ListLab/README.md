@@ -32,8 +32,11 @@ Write a program to append several lists of numbers.
 |Input	                |Output         |
 |:---                   |:---           |
 |1 2 3 |4 5 6 |  7  8	|7 8 4 5 6 1 2 3|
+|-----------------------|---------------|
 |7 | 4  5|1 0| 2 5 |3	|3 2 5 1 0 4 5 7|
+|-----------------------|---------------|
 |1| 4 5 6 7  |  8 9	|8 9 4 5 6 7 1  |
+|-----------------------|---------------|
 
 ### Hints
       • Create a new empty list for the results.
@@ -69,11 +72,12 @@ Write a program to sum all adjacent equal numbers in a list of decimal numbers, 
 
 Read a text, split it into words and distribute them into 3 lists.
 
-       • **Lower-case** **words** like “programming”, “at” and “databases” – consist of lowercase letters only.
-       • **Upper-case** **words** like “PHP”, “JS” and “SQL” – consist of uppercase letters only.
-       • **Mixed-case** **words** like “C#”, “SoftUni” and “Java” – all others.
+       • Lower-case words like “programming”, “at” and “databases” – consist of lowercase letters only.
+       • Upper-case words like “PHP”, “JS” and “SQL” – consist of uppercase letters only.
+       • Mixed-case words like “C#”, “SoftUni” and “Java” – all others.
 
 Use the following **separators** between the words: , ; : . ! ( ) " ' \ / [ ] space
+
 Print the 3 lists as shown in the example below.
 
 #### Examples
@@ -148,6 +152,7 @@ Read a list of integers in range [0…1000] and print them in ascending order alon
 ### Hints
 
 Several algorithms can solve this problem:
+
    • Use an array count[0…1000] to count in counts[x] the occurrences of each element x.
    • Sort the numbers and count occurrences of each number.
    • Use a dictionary counts<int, int> to count in counts[x] the occurrences of each element x.

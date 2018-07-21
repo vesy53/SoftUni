@@ -81,6 +81,7 @@ Read a list of integers and find the longest increasing subsequence (LIS). If se
 	• The table below illustrates these computations:
 
 |**index** |0    |1	|2    |3       |4	   |5	   |6	     |7	         |8	        |9	       |10   |
+| :---:    |:---:| :---:|:---:| :---:  |  :---:    | :---: |  :---:  |  :---:    |   :---:      |  :---:       |:---:|
 |**nums[]**|**3**|**14**|**5**|**12**  |**15**	   |**7**  |**8**    |**9**	 |**11**        |**10**	       |**1**|
 |**len[]** |1    |2     |2    |3       |4	   |3	   |4	     |5	         |6	        |6	       |1    |
 |**prev[]**|-1   |0     |0    |2       |3	   |2	   |5	     |6	         |7	        |7	       |-1   |

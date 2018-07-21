@@ -19,30 +19,42 @@ Input	                   |Output
 ## 2. Change List
 
 Write a program, which reads a list of integers from the console and receives commands, which manipulate the list. Your program may receive the following commands: 
+
 	• Delete {element} – delete all elements in the array, which are equal to the given element
 	• Insert {element} {position} – insert element and the given position
+
 You should stop the program when you receive the command Odd or Even. If you receive Odd ? print all odd numbers in the array separated with single whitespace, otherwise print the even numbers.
 
 #### Examples
 
-|Input	        |Output|       |Input	                      |Output             |
-|:---           |:---  |       |:---                          |:---               |
-|1 2 3 4 5 5 5 6|1 3   |       |20 12 4 319 21 31234 2 41 23 4|20 12 50 50 31234 2|
-|Delete 5       |      |       |Insert 50 2                   |                   |
-|Insert 10 1    |      |       |Insert 50 5                   |                   |
-|Delete 5       |      |       |Delete 4                      |                   |
-|Odd            |      |       |Even                          |                   |                     
+|Input	        |Output|      
+|:---           |:---  |       
+|1 2 3 4 5 5 5 6|1 3   |       
+|Delete 5       |      |       
+|Insert 10 1    |      |       
+|Delete 5       |      |       
+|Odd            |      |   
+|------------------------------|-------------------|   
+|20 12 4 319 21 31234 2 41 23 4|20 12 50 50 31234 2| 
+|Insert 50 2                   |                   |
+|Insert 50 5                   |                   |
+|Delete 4                      |                   |
+|Even                          |                   |   
+                 
 ## 3. Search for a Number
 
 On the first line, you will receive a list of integers. On the next line, you will receive an array with exactly three numbers. First number represents the number of elements you have to take from the list (starting from the first one). Second number represents the number of elements you have to delete from the numbers you took (starting from the first one). Last number is the number we search in our collection after the manipulations. If it is present print: “YES!”, otherwise print “NO!”. 
 
 #### Examples
 
-|Input	    |Output|	 |Input	                       |Output|
-|:---       |:---  |     |:---                         |:---  |
-|1 2 3 4 5 6|YES!  |     |12 412 123 21 654 34 65 3 23 |NO!   |
-|5 2 3	    |	   |     |7 4 21	               |      |
-	
+|Input	    |Output|	 
+|:---       |:---  |   
+|1 2 3 4 5 6|YES!  |     
+|5 2 3	    |	   |  
+|-----------------------------|------|   
+|12 412 123 21 654 34 65 3 23 |NO!   |
+|7 4 21	                      |      |
+
 ## 4. ** Longest Increasing Subsequence (LIS)
 
 Read a list of integers and find the longest increasing subsequence (LIS). If several such exist, print the leftmost.
@@ -68,7 +80,6 @@ Read a list of integers and find the longest increasing subsequence (LIS). If se
 	• Once the values for len[0…n-1] are calculated, restore the LIS starting from position p such that len[p] is maximal and go back and back through p = prev[p].
 	• The table below illustrates these computations:
 
-|   :---:  |:---:|:---: |:---:|:---:   |:---:      |:---:  |:---:    |:---:      |:---:         |:---:         |:---:|
 |**index** |0    |1	|2    |3       |4	   |5	   |6	     |7	         |8	        |9	       |10   |
 |**nums[]**|**3**|**14**|**5**|**12**  |**15**	   |**7**  |**8**    |**9**	 |**11**        |**10**	       |**1**|
 |**len[]** |1    |2     |2    |3       |4	   |3	   |4	     |5	         |6	        |6	       |1    |
@@ -78,6 +89,7 @@ Read a list of integers and find the longest increasing subsequence (LIS). If se
 ## 5. * Array Manipulator
 
 Write a program that reads an array of integers from the console and set of commands and executes them over the array. The commands are as follows:
+
 	• add <index> <element> – adds element at the specified index (elements right from this position inclusively are shifted to the right).
 	• addMany <index> <element 1> <element 2> … <element n> – adds a set of elements at the specified index.
 	• contains <element> – prints the index of the first occurrence of the specified element (if exists) in the array or -1 if the element is not found.

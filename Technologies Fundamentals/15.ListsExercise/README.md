@@ -121,7 +121,8 @@ Write a program that reads an array of integers from the console and set of comm
 |2 2 4 2 4  |[6, 6, 6]            |
 |add 1 4    |                     |
 |sumPairs   |                     |
-|print      |                     |	
+|print      |                     |
+|-----------|---------------------|	
 |1 2 1 2 1 2 1 2 1 2 1 2|[-1, -2, -3, 6, 6, 6]|
 sumPairs    |                     |
 sumPairs    |                     |

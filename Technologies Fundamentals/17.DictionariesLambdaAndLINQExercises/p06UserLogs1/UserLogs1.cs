@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
-class UserLogs
+class UserLogs1
 {
     static void Main(string[] args)
     {
@@ -38,19 +39,30 @@ class UserLogs
         {
             string userName = itemUser.Key;
             Dictionary<string, int> usersIP = itemUser.Value;
-            List<string> helper = new List<string>();
 
             Console.WriteLine($"{userName}:");
+
+            StringBuilder result = new StringBuilder();
+            int count = 0;
 
             foreach (var itemIP in usersIP)
             {
                 string ip = itemIP.Key;
-                int count = itemIP.Value;
+                int countNum = itemIP.Value;
 
-                helper.Add($"{ip} => {count}");       
+                if (count == usersIP.Count - 1)
+                {
+                    result.Append($"{ip} => {countNum}.");
+                }
+                else
+                {
+                    result.Append($"{ip} => {countNum}, ");
+                }
+
+                count++;
             }
 
-            Console.WriteLine(string.Join(", ", helper) + ".");
+            Console.WriteLine(result.ToString());
         }
     }
 }

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class UserLogs
+class UserLogs2
 {
     static void Main(string[] args)
     {
-        var usersParameters = new Dictionary<string, Dictionary<string, int>>();
+        var usersParameters = new SortedDictionary<string, Dictionary<string, int>>();
         string input = Console.ReadLine();
 
         while (input != "end")
@@ -34,23 +34,27 @@ class UserLogs
             input = Console.ReadLine();
         }
 
-        foreach (var itemUser in usersParameters.OrderBy(x => x.Key))
+        foreach (var itemUser in usersParameters)
         {
             string userName = itemUser.Key;
             Dictionary<string, int> usersIP = itemUser.Value;
-            List<string> helper = new List<string>();
 
             Console.WriteLine($"{userName}:");
 
             foreach (var itemIP in usersIP)
             {
                 string ip = itemIP.Key;
-                int count = itemIP.Value;
+                int countNum = itemIP.Value;
 
-                helper.Add($"{ip} => {count}");       
+                if (ip != usersIP.Keys.Last())
+                {
+                    Console.Write($"{ip} => {countNum}, ");
+                }
+                else
+                {
+                    Console.WriteLine($"{ip} => {countNum}.");               
+                }            
             }
-
-            Console.WriteLine(string.Join(", ", helper) + ".");
         }
     }
 }

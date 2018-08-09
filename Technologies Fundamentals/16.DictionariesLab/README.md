@@ -13,21 +13,21 @@ Read a **list of real numbers** and **print them in ascending order** along with
 
 
 
-|**Input**|**Output**|
-|:---     |:---      |
+|**Input**       |**Output**     |
+|:---            |:---           |
 
-|8 2.5 2.5 8 2.5 |2.5 -> 3 times
-|                | 8 -> 2 times|
+|8 2.5 2.5 8 2.5 |2.5 -> 3 times |
+|                |8 -> 2 times   |
 
-|----------------|-------------|
-|1.5 5 1.5 3     |1.5 -> 2 times| 
-|                | 3 -> 1 times |
-|                |5 -> 1 times|
+|----------------|---------------|
+|1.5 5 1.5 3     |1.5 -> 2 times | 
+|                | 3 -> 1 times  |
+|                |5 -> 1 times   |
 
-|----------------|------------|
-|-2 0.33 0.33 2  |-2 -> 1 times |
-|                | 0.33 -> 2 times|
-|                | 2 -> 1 times|
+|----------------|---------------|
+|-2 0.33 0.33 2  |-2 -> 1 times  |
+|                |0.33 -> 2 times|
+|                |2 -> 1 times   |
 
 #### Hints
 	• Use SortedDictionary<double, int> named counts.
@@ -43,13 +43,13 @@ Write a program that extracts from a given sequence of words all elements that p
 
 #### Examples
 
-|**Input**                      |**Output**|
+|**Input**                      |**Output**   |
 
-|:---                           |:---      |
+|:---                           |:---         |
 
-|Java C# PHP PHP JAVA C java	|java, c#, c|
+|Java C# PHP PHP JAVA C java	|java, c#, c  |
 
-|3 5 5 hi pi HO Hi 5 ho 3 hi pi	|5, hi      |
+|3 5 5 hi pi HO Hi 5 ho 3 hi pi	|5, hi        |
 
 |a a A SQL xx a xx a A a XX c	|a, SQL, xx, c|
 
@@ -70,20 +70,20 @@ Write a program to read n integers and print their *sum, min, max, first, last**
 
 #### Examples
 
-|**Input**|**Output**|
+|**Input**|**Output**     |
 
-|:---     |:---      |
+|:---     |:---           |
 
-|**5**    |          |
-|12       |Sum = 72  |
-|20       |Min = -5  |
-|-5       |Max = 37  |
-|37       |Average = 14.4|
-|---------|--------------|
-|**4**    |              |
-|50       |Sum = 135     |
-|20       |Min = 20      |
-|25       |Max = 50      |
+|**5**    |               |
+|12       |Sum = 72       |
+|20       |Min = -5       |
+|-5       |Max = 37       |
+|37       |Average = 14.4 |
+|---------|---------------|
+|**4**    |               |
+|50       |Sum = 135      |
+|20       |Min = 20       |
+|25       |Max = 50       |
 |40       |Average = 33.75|
 
 #### Hints
@@ -102,13 +102,13 @@ Read a **list of real numbers** and **print largest 3 of them**. If less than 3 
 #### Examples
 
 
-|**Input**|**Output**|
+|**Input**       |**Output**|
 
-|:---     |:---      |
+|:---            |:---      |
 
-|10 30 15 20 50 5|50 30 20|
+|10 30 15 20 50 5|50 30 20  |
 
-|20 30	         |30 20|
+|20 30	         |30 20     |
 
 
 
@@ -128,12 +128,13 @@ Read a **text**, extract its **words**, find all **short words** (less than 5 ch
 
 
 
-|**Input**|**Output**|
+|**Input**                                             |**Output**                               |
 
-|:---     |:---      |
+|:---                                                  |:---                                     |
 
 |In SoftUni you can study Java, C#, PHP and JavaScript.|2-3, and, c#, can, go, in, java, php, you|
 |JAVA and c# developers graduate in 2-3 years. Go in!  |                                         |
+|------------------------------------------------------|-----------------------------------------|
 
 
 
@@ -153,22 +154,22 @@ Read an array of **4*k integers, fold** it like shown below, and **print the sum
 
 
 
-|**Input**|**Output**|**Comments**|
+|**Input**                                        |**Output**    |**Comments**         |
 
-|:---     |:---      |:---        |
+|:---                                             |:---          |:---                 |
 
-|5 **2** **3** 6|7 9 |5  6  +     |
-|          |         |2  3  =     |
-|          |         |7  9        |
+|5 **2** **3** 6                                  |7 9           |5  6  +              |
+|                                                 |              |2  3  =              |
+|                                                 |              |7  9                 |
 
-|----------|---------|------------|
-|1 2 **3** **4** **5** **6** 7 8|5 5 13 13|2  1  8  7  + |
-|          |         |3  4  5  6  = |
-|          |         |5  5 13 13    |
+|-------------------------------------------------|--------------|---------------------|
+|1 2 **3** **4** **5** **6** 7 8                  |5 5 13 13     |2  1  8  7  +        |
+|                                                 |              |3  4  5  6  =        |
+|                                                 |              |5  5 13 13           |
 
-|4 3 -1 2 5 0 1 9 8 6 7 -2|1 8 4 -1 16 14|-1  3  4 -2  7  6  + |
-|          |          |2  5  0  1  9  8  = |
-|          |          |1  8  4 -1 16 14|
+|4 3 -1 **2** **5** **0** **1** **9** **8** 6 7 -2|1 8 4 -1 16 14|-1  3  4 -2  7  6  + |
+|                                                 |              |2  5  0  1  9  8  =  |
+|                                                 |              |1  8  4 -1 16 14     |
 
 
 

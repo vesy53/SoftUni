@@ -12,7 +12,7 @@ Read a **list of real numbers** and **print them in ascending order** along with
 
 
 |**Input**|**Output**|
-|---|---|
+|:---|:---|
 
 |8 2.5 2.5 8 2.5 |2.5 -> 3 times <br/> 8 -> 2 times|
 
@@ -41,7 +41,7 @@ Write a program that extracts from a given sequence of words all elements that p
 
 |**Input**|**Output**|
 
-|---|---|
+|:---     |:---      |
 
 |Java C# PHP PHP JAVA C java	|java, c#, c|
 
@@ -68,11 +68,11 @@ Write a program to read n integers and print their *sum, min, max, first, last**
 
 |**Input**|**Output**|
 
-|---|---|
+|:---     |:---      |
 
-|5 <br/> 12 <br/> 20 <br/> -5 <br/> 37 <br/> 8|Sum = 72 <br/> Min = -5 <br/> Max = 37 <br/> Average = 14.4|
+|**5** <br/> 12 <br/> 20 <br/> -5 <br/> 37 <br/> 8|Sum = 72 <br/> Min = -5 <br/> Max = 37 <br/> Average = 14.4|
 
-|4 <br/> 50 <br/> 20 <br/> 25 <br/> 40|Sum = 135 <br/> Min = 20 <br/> Max = 50 <br/> Average = 33.75|
+|**4** <br/> 50 <br/> 20 <br/> 25 <br/> 40|Sum = 135 <br/> Min = 20 <br/> Max = 50 <br/> Average = 33.75|
 
 > #### Hints
 > - Include the **“System.Linq”** namespace to enable aggregate functions.
@@ -92,7 +92,7 @@ Read a **list of real numbers** and **print largest 3 of them**. If less than 3 
 
 |**Input**|**Output**|
 
-|---|---|
+|:---|:---|
 
 |10 30 15 20 50 5	|50 30 20|
 
@@ -124,7 +124,7 @@ Read a **text**, extract its **words**, find all **short words** (less than 5 ch
 
 |**Input**|**Output**|
 
-|---|---|
+|:---|:---|
 
 |In SoftUni you can study Java, C#, PHP and JavaScript. JAVA and c# developers graduate in 2-3 years. Go in!|2-3, and, c#, can, go, in, java, php, you|
 
@@ -146,19 +146,13 @@ Read a **text**, extract its **words**, find all **short words** (less than 5 ch
 
 Read an array of **4*k integers, fold** it like shown below, and **print the sum** of the upper and lower rows (**2*k integers**).
 
-
-
-![Not fount](/Programmin%20Fundamentals/Homeworks%20and%20Labs/images/dicAndLINQ1.png)
-
-
-
 #### Examples
 
 
 
 |**Input**|**Output**|**Comments**|
 
-|---|---|---|
+|:---|:---|:---|
 
 |5 2 3 6	|7 9|	5  6  + <br/> 2  3  = <br/> 7  9|
 

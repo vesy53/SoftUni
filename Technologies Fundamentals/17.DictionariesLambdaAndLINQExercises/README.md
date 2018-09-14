@@ -212,13 +212,13 @@ If two countries/cities have the same population, keep them in the order in whic
 
 |Input	                   |Output                               |
 |:---                      |:---                                 |
-|Sofia|Bulgaria|1000000    |Bulgaria (total population: 1000000) |
+|Sofia/Bulgaria/1000000    |Bulgaria (total population: 1000000) |
 |report	                   |=>Sofia: 1000000                     |
 |--------------------------|-------------------------------------|
-|Sofia|Bulgaria|1          |UK (total population: 4)             |
-|Veliko Tarnovo|Bulgaria|2 |=>London: 4                          |
-|London|UK|4               |Bulgaria (total population: 3)       |
-|Rome|Italy|3              |=>Veliko Tarnovo: 2                  |
+|Sofia/Bulgaria/1          |UK (total population: 4)             |
+|Veliko Tarnovo/Bulgaria/2 |=>London: 4                          |
+|London/UK/4               |Bulgaria (total population: 3)       |
+|Rome/Italy/3              |=>Veliko Tarnovo: 2                  |
 |report	                   |=>Sofia: 1                           |
 |                          |Italy (total population: 3)          |
 |                          |=>Rome: 3                            |

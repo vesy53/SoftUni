@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    class ArrayManipulator //70/100
+    class ArrayManipulator //80/100
     {
         static void Main(string[] args)
         {

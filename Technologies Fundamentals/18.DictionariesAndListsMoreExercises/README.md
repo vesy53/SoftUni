@@ -38,7 +38,7 @@ When you calculate the time to defeat the virus, convert it to minutes and secon
 The virus is fought according to these conditions:
 
 	• If the immune system defeats the virus, print:
-“{virusName} defeated in {virusDefeatMinutes}m {virusDefeatSeconds}s.”
+	“{virusName} defeated in {virusDefeatMinutes}m {virusDefeatSeconds}s.”
 	• If the virus’ strength is more than the immune system’s strength, print “Immune System Defeated.” and exit the program.
 
 After a virus is defeated, the immune system regains 20% of its strength. If the 20 percent exceeds the initial health of the immune system, set it to the initial health instead.
@@ -164,18 +164,18 @@ The program receives 2 commands:
 
 	• “register {username} {licensePlateNumber}”:
 		o The system only supports one car per user at the moment, so if a user tries to register another license plate, using the same username, the system should print:
-“ERROR: already registered with plate number {licensePlateNumber}”
+		“ERROR: already registered with plate number {licensePlateNumber}”
 		o If the license plate is invalid, the system should print:
-“ERROR: invalid license plate {licensePlateNumber}“
+		“ERROR: invalid license plate {licensePlateNumber}“
 		o If the user tries to register someone else’s license plate, the system should print:
-“ERROR: license plate {licensePlateNumber} is busy”
+		“ERROR: license plate {licensePlateNumber} is busy”
 		o If the aforementioned checks pass successfully, the plate can be registered, so the system should print:
-“{username} registered {licensePlateNumber} successfully”
+		“{username} registered {licensePlateNumber} successfully”
 	• “unregister {username}”:
 		o If the user is not present in the database, the system should print:
-“ERROR: user {username} not found”
+		“ERROR: user {username} not found”
 		o If the aforementioned check passes successfully, the system should print:
-“user {username} unregistered successfully”
+		“user {username} unregistered successfully”
 After you execute all of the commands, print all the currently registered users and their license plates in the format:
 	• “{username} => {licensePlateNumber}”
 

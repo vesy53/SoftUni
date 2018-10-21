@@ -9,7 +9,6 @@ You are given a date in format day-month-year. Calculate and print the day of we
 ### Examples
 
 |Input	        |Output    |
-
 |:---           |:---      |
 |18-04-2016	|Monday    |
 |27-11-1996	|Wednesday |
@@ -64,8 +63,11 @@ Use the class BigInteger from the built-in .NET library System.Numerics.dll.
 3. Use the type BigInteger instead of long or decimal to keep the factorial value:
 
 BigInteger factorial = 1;
+
 for(int i = 1; i <= n; i++)
+
     // TODO
+
 
 ## II. Defining Simple Classes
 
@@ -83,7 +85,7 @@ Write a method to calculate the distance between two points p1 {x1, y1} and p2 {
 |------|-------|
 |3 4   |2.000  |
 |5 4   |       |
-|:---  |:---   |
+|------|-------|
 |8 -2  |11.402 |
 |-1 5  |       |
 

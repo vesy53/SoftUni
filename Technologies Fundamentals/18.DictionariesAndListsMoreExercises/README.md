@@ -61,6 +61,7 @@ If you encounter a virus any subsequent times, do not decrease its time to defea
 ### Output
 
 A defeated virus’ output looks like this:
+
 	• First line: “Virus {virusName}: {virusStrength} => {virusDefeatSeconds}”
 	• Second line: “{virusName} defeated in {defeatMins}m {defeatSecs}s.”
 	• Third line: “Remaining health: {remainingHealth}”. The remaining health is printed before its regeneration.
@@ -176,7 +177,9 @@ The program receives 2 commands:
 		“ERROR: user {username} not found”
 		o If the aforementioned check passes successfully, the system should print:
 		“user {username} unregistered successfully”
+
 After you execute all of the commands, print all the currently registered users and their license plates in the format:
+
 	• “{username} => {licensePlateNumber}”
 
 ### Input
@@ -243,6 +246,7 @@ Take every digit from the string and store it somewhere. After that, remove all 
 	• Numbers list: [0, 4, 4, 1, 7, 0]
 	• Non-numbers: [s, k, i, p, T, e, s, t, _, S, t, r, i, n, g]
 After that, take every digit in the numbers list and split it up into a take list and a skip list, depending on whether the digit is in an even or an odd index:
+
 	• Numbers list: [0, 4, 4, 1, 7, 0]
 	• Take list: [0, 4, 7]
 	• Skip list: [4, 1, 0]

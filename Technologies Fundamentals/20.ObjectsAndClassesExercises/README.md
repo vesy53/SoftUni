@@ -246,10 +246,12 @@ Next you will receive user with team (separated with "->") which means that the 
 		- "Team {teamName} does not exist!"
 	• Member of a team cannot join another team - message should be thrown:
 		- "Member {user} cannot join team {team Name}!"
-	• In the end (after teams' report) teams with zero members (with only a creator) should disband.  Every valid team should be printed ordered by name (ascending) in this format:
+	• In the end (after teams' report) teams with zero members (with only a creator) should disband. Every valid team should be printed ordered by name (ascending) in this format:
 
 "{teamName}:
+
 - {creator}
+
 -- {member}…"
 
 ### Examples
@@ -326,30 +328,32 @@ Your task is to create and print the study groups for each town as follows:
 **Input**
 
 Plovdiv => 5 seats
-Ani Kirilova   |ani88@abv.bg             |27-May-2016
-Todor Nikolov  | tod92@mente.org         | 28-May-2016
-Kiril Stoyanov |  kirtak@gmail.com       | 27-May-2016
-Stefka Petrova |   st96@abv.bg           | 26-May-2016
-Ani Kirilova   |     ani.k@yahoo.co.uk   | 27-May-2016
-Ivan Ivanov    |  ivan.i.ivanov@gmail.com| 27-May-2016
+
+|Ani Kirilova   |ani88@abv.bg             |27-May-2016 |
+|Todor Nikolov  | tod92@mente.org         | 28-May-2016|
+|Kiril Stoyanov |  kirtak@gmail.com       | 27-May-2016|
+|Stefka Petrova |   st96@abv.bg           | 26-May-2016|
+|Ani Kirilova   |     ani.k@yahoo.co.uk   | 27-May-2016|
+|Ivan Ivanov    |  ivan.i.ivanov@gmail.com| 27-May-2016|
 Veliko Tarnovo => 3 seats
-Petya Stoyanova | stoyanova_p@abv.bg    | 27-May-2016
-Stoyan Kirilov  | 100yan@gmail.com      | 24-May-2016
-Didi Miteva     | miteva_d@yahoo.co.uk  | 28-May-2016
-Kiril Nikolov   | kiro@kiro.net         | 25-May-2016
-Ivan Stefanov   | ivan.stef86@gmail.com | 27-May-2016
-Maria Kirova    | maria.k@abv.bg        | 26-May-2016
+|Petya Stoyanova | stoyanova_p@abv.bg    | 27-May-2016|
+|Stoyan Kirilov  | 100yan@gmail.com      | 24-May-2016|
+|Didi Miteva     | miteva_d@yahoo.co.uk  | 28-May-2016|
+|Kiril Nikolov   | kiro@kiro.net         | 25-May-2016|
+|Ivan Stefanov   | ivan.stef86@gmail.com | 27-May-2016|
+|Maria Kirova    | maria.k@abv.bg        | 26-May-2016|
 Varna => 2 seats
-Ivan Ivanov      | ivan.ivanov96@gmail.com| 29-May-2016
-Stoyan Petrov    | sto.sto.sto@gmail.com  | 27-May-2016
-Ivan Ivanov      | vankata@mail.bg        | 1-Jun-2016
-Kiril Anev       | anev_k@yahoo.co.uk     | 27-May-2016
-Ivan Ivanov      | vanyo98@abv.bg         | 29-May-2016
-Petya Vladimirova|pete98@abv.bg           | 20-May-2016
-Ivan Ivanov      | ivan.94.ivan@gmail.com | 29-May-2016
-End
+|Ivan Ivanov      | ivan.ivanov96@gmail.com| 29-May-2016|
+|Stoyan Petrov    | sto.sto.sto@gmail.com  | 27-May-2016|
+|Ivan Ivanov      | vankata@mail.bg        | 1-Jun-2016 |
+|Kiril Anev       | anev_k@yahoo.co.uk     | 27-May-2016|
+|Ivan Ivanov      | vanyo98@abv.bg         | 29-May-2016|
+|Petya Vladimirova|pete98@abv.bg           | 20-May-2016|
+|Ivan Ivanov      | ivan.94.ivan@gmail.com | 29-May-2016|
+|End              |                        |            |
 
 **Output**
+
 Created 8 groups in 3 towns:
 Plovdiv => st96@abv.bg, ani.k@yahoo.co.uk, ani88@abv.bg, ivan.i.ivanov@gmail.com, kirtak@gmail.com
 Plovdiv => tod92@mente.org
@@ -361,33 +365,34 @@ Veliko Tarnovo => 100yan@gmail.com, kiro@kiro.net, maria.k@abv.bg
 Veliko Tarnovo => ivan.stef86@gmail.com, stoyanova_p@abv.bg, miteva_d@yahoo.co.uk
 
 **Comments**
+
 Plovdiv (group 1 – 5/5 students)
-Stefka Petrova | st96@abv.bg | 26-May-2016
-Ani Kirilova | ani.k@yahoo.co.uk | 27-May-2016
-Ani Kirilova | ani88@abv.bg | 27-May-2016
-Ivan Ivanov | ivan.i.ivanov@gmail.com | 27-May-2016
-Kiril Stoyanov | kirtak@gmail.com | 27-May-2016
+|Stefka Petrova | st96@abv.bg             | 26-May-2016|
+|Ani Kirilova   | ani.k@yahoo.co.uk       | 27-May-2016|
+|Ani Kirilova   | ani88@abv.bg            | 27-May-2016|
+|Ivan Ivanov    | ivan.i.ivanov@gmail.com | 27-May-2016|
+|Kiril Stoyanov | kirtak@gmail.com        | 27-May-2016|
 Plovdiv (group 2 – 1/5 students)
-Todor Nikolov | tod92@mente.org | 28-May-2016
+Todor Nikolov"  | tod92@mente.org | 28-May-2016|
 Varna (group 1 – 2/2 students)
-Petya Vladimirova | pete98@abv.bg | 20-May-2016
-Kiril Anev | anev_k@yahoo.co.uk | 27-May-2016
+|Petya Vladimirova | pete98@abv.bg      | 20-May-2016|
+|Kiril Anev        | anev_k@yahoo.co.uk | 27-May-2016|
 Varna (group 2 – 2/2 students)
-Stoyan Petrov | sto.sto.sto@gmail.com | 27-May-2016
-Ivan Ivanov | ivan.94.ivan@gmail.com | 29-May-2016
+|Stoyan Petrov | sto.sto.sto@gmail.com  | 27-May-2016|
+|Ivan Ivanov   | ivan.94.ivan@gmail.com | 29-May-2016|
 Varna (group 3 – 2/2 students)
-Ivan Ivanov | ivan.ivanov96@gmail.com | 29-May-2016
-Ivan Ivanov | vanyo98@abv.bg | 29-May-2016
+|Ivan Ivanov | ivan.ivanov96@gmail.com | 29-May-2016|
+|Ivan Ivanov | vanyo98@abv.bg          | 29-May-2016|
 Varna (group 4 – 1/2 students)
-Ivan Ivanov | vankata@mail.bg | 1-Jun-2016
+|Ivan Ivanov | vankata@mail.bg | 1-Jun-2016|
 Veliko Tarnovo (group 1 – 3/3 students)
-Stoyan Kirilov | 100yan@gmail.com | 24-May-2016
-Kiril Nikolov | kiro@kiro.net | 25-May-2016
-Maria Kirova | maria.k@abv.bg | 26-May-2016
+|Stoyan Kirilov | 100yan@gmail.com | 24-May-2016|
+|Kiril Nikolov  | kiro@kiro.net    | 25-May-2016|
+|Maria Kirova   | maria.k@abv.bg   | 26-May-2016|
 Veliko Tarnovo (group 2 – 3/3 students)
-Ivan Stefanov | ivan.stef86@gmail.com | 27-May-2016
-Petya Stoyanova | stoyanova_p@abv.bg | 27-May-2016
-Didi Miteva | miteva_d@yahoo.co.uk | 28-May-2016
+|Ivan Stefanov   | ivan.stef86@gmail.com | 27-May-2016|
+|Petya Stoyanova | stoyanova_p@abv.bg    | 27-May-2016|
+|Didi Miteva     | miteva_d@yahoo.co.uk  | 28-May-2016|
 
 ### Hints
 

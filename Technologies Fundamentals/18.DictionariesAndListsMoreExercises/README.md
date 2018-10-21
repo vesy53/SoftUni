@@ -7,15 +7,18 @@ Example: 06:55, 02:30, 23:11 **->** 02:30, 06:55, 21:11
 ### Examples
 
 |Input	                             | Output                                  |
-|:---                                |:---                                     |            |00:00 06:04 02:59 10:33 11:22 06:01 |00:00, 02:59, 06:01, 06:04, 10:33, 11:22 |
+|:---                                |:---                                     | 
+|00:00 06:04 02:59 10:33 11:22 06:01 |00:00, 02:59, 06:01, 06:04, 10:33, 11:22 |
 |04:25 04:21 04:19	             |04:19, 04:21, 04:25                      |
 |00:00 23:59 12:00 16:00             |00:00, 12:00, 16:00, 23:59               |
 
 ## Problem 2. Odd Filter
 
 Write a program, which receives an array of integers (space-separated), removes all the odd numbers, then converts the remaining numbers to odd numbers, based on these conditions:
+
 	• If the number is larger than the average of the collection of remaining numbers, add 1 to it.
 	• If the number is smaller than the average of the collection of remaining numbers, subtract 1 from it.
+
 After you convert all of the elements to odd numbers, print them on the console (space-separated).
 
 ### Examples
@@ -33,15 +36,21 @@ The immune system can calculate the virus’ strength before it fights it. It is t
 The immune system can also calculate the time it takes to defeat a virus in seconds. It is equal to the virus strength, multiplied by the length of the virus’ name.
 When you calculate the time to defeat the virus, convert it to minutes and seconds (500 ? 8m 20s). Do not use any leading zeroes for the minutes and seconds.
 The virus is fought according to these conditions:
+
 	• If the immune system defeats the virus, print:
 “{virusName} defeated in {virusDefeatMinutes}m {virusDefeatSeconds}s.”
 	• If the virus’ strength is more than the immune system’s strength, print “Immune System Defeated.” and exit the program.
+
 After a virus is defeated, the immune system regains 20% of its strength. If the 20 percent exceeds the initial health of the immune system, set it to the initial health instead.
 Example: The virus “flu1”:
+
 	• Virus Strength: 102 (f) + 108 (l) + 117 (u) + 49 (1) = 376 / 3 = 125.33 = 125.
 	• Time to defeat: 125 * 4 (virus name length) = 500 seconds ? 8m 20s.
+
 Example 2: Encountering “flu1” a second time:
+
 	• Time to defeat: (125 * 4) / 3 = 166.66 ? 166 seconds
+
 If you encounter a virus any subsequent times, do not decrease its time to defeat further. When you receive the line “end”, print the status of the immune system in the format “Final Health: {finalHealth}”.
 
 ### Input
@@ -108,10 +117,10 @@ Note: The grand total is calculated, based on the latest price of the products.
 ### Output
 
 	• Print information about each product, following the format: 
-“{name}: ${price:F2} * {quantity} = ${total:F2}”
+	“{name}: ${price:F2} * {quantity} = ${total:F2}”
 	• On the next line, print 30 dashes.
 	• On the final line, print the grand total in the following format:
-“Grand Total: ${grandTotal:F2}”
+	“Grand Total: ${grandTotal:F2}”
 
 ### Examples
 
@@ -145,11 +154,14 @@ Note: The grand total is calculated, based on the latest price of the products.
 SoftUni just got a huge, shiny new parking lot in a super-secret location (under the Code Ground hall). It’s so fancy, it even has online parking validation. Except, the online service doesn’t work. It can only receive users’ data, but doesn’t know what to do with it. Good thing you’re on the dev team and know how to fix it, right?
 Write a program, which validates parking for an online service. Users can register to park and unregister to leave.
 The system supports license plate validation. A valid license plate has the following 3 distinct characteristics: 
+
 	• It is always exactly 8 characters long.
 	• Its first 2 and last 2 characters are always uppercase Latin letters
 	• The 4 characters in the middle are always digits
+
 If any of the aforementioned conditions fails, the license plate is invalid.
 The program receives 2 commands:
+
 	• “register {username} {licensePlateNumber}”:
 		o The system only supports one car per user at the moment, so if a user tries to register another license plate, using the same username, the system should print:
 “ERROR: already registered with plate number {licensePlateNumber}”
@@ -227,13 +239,16 @@ Print the resulting string of ASCII characters on the console.
 Write a program, which reads a string and skips through it, extracting a hidden message. The algorithm you have to implement is as follows:
 Let’s take the string “skipTest_String044170” as an example.
 Take every digit from the string and store it somewhere. After that, remove all the digits from the string. After this operation, you should have two lists of items: the numbers list and the non-numbers list:
+
 	• Numbers list: [0, 4, 4, 1, 7, 0]
 	• Non-numbers: [s, k, i, p, T, e, s, t, _, S, t, r, i, n, g]
 After that, take every digit in the numbers list and split it up into a take list and a skip list, depending on whether the digit is in an even or an odd index:
 	• Numbers list: [0, 4, 4, 1, 7, 0]
 	• Take list: [0, 4, 7]
 	• Skip list: [4, 1, 0]
+
 Afterwards, iterate over both of the lists and skip {skipCount} characters from the non-numbers list, then take {takeCount} characters and store it in a result string. Note that the skipped characters are summed up as they go. The process would look like this on the aforementioned non-numbers list:
+
 	1. Skip 4 characters (total 0), take 0 characters -> “skipTest_String” -> Taken: “” -> Result: “”
 	2. Skip 1 characters (total 4), take 4 characters -> “skipTest_String” -> Taken: “Test” -> Result: “Test”
 	3. Skip 0 characters (total 9), take 7 characters -> “skipTest_String” -> Taken: “String” -> Result: “TestString”

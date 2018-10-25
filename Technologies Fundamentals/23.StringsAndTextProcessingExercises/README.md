@@ -70,6 +70,7 @@ Write a method that takes as input two strings, and returns Boolean if they are 
 ### Examples
 
 |Input	        |Output |
+|:---           |:---   |
 |gosho hapka	|true   |
 |aabbaa ddeedd	|true   |
 |foo bar	|false  |
@@ -117,6 +118,7 @@ This problem is from the Java Basics exam (8 February 2015). You may check your 
 Nakov likes Math. But he also likes the English alphabet a lot. He invented a game with numbers and letters from the English alphabet. The game was simple. You get a string consisting of a number between two letters. Depending on whether the letter was in front of the number or after it you would perform different mathematical operations on the number to achieve the result.
 
 **First** you start with the letter before the number. 
+
 	• If it's uppercase you divide the number by the letter's position in the alphabet. 
 	• If it's lowercase you multiply the number with the letter's position in the alphabet. 
 

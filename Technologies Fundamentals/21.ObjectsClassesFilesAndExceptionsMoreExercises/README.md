@@ -1,6 +1,6 @@
 # More Exercises: Objects, Classes, Files and Exceptions
 
-## I. Objects and Classes
+# I. Objects and Classes
 
 ## Problem 1. Order by Age
 
@@ -106,17 +106,17 @@ The properties will always be given in the same order as they are described abov
 
 	• On the first line, you will receive the maximum energy capacity of the robot.
 	• Until you receive the command “Assemble!” you will receive components in the format:
-{typeOfComponent} {energyConsumption} {property1} {property2}
+	{typeOfComponent} {energyConsumption} {property1} {property2}
 
 ### Output
 
 	• If you do not have enough energy efficient components to assemble the robot print:
-“We need more power!”
+	  “We need more power!”
 	• If you do not have enough parts print:
-“We need more parts!”
+	  “We need more parts!”
 	• If you can build a robot with the given components print:
 
-	**Jarvis:**
+	Jarvis:
 	#Head:
 	###Energy consumption: {head’s energy consumption}
 	###IQ: {head’s IQ}
@@ -205,7 +205,7 @@ Print the legs and the feet ordered by energy consumption in ascending order.
 
 	• You might want to override the ToString(…) method in some of your classes.
 
-## II. Files
+# II. Files
 
 For these tasks, you will receive sample_text.txt file, which you have to use to make your exercises. Just submit the result of the tasks as plain text in the Judge.
 
@@ -237,7 +237,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit,|Lorem ipsum dolor sit a
 |More text will be given…	                        |aliqua                                |
 |                                                       |Continues…                            |
 
-### Problem 6.	** EXCELlent Knowledge
+### Problem 6. ** EXCELlent Knowledge
 
 You received excel table named sample_table.xlsx. Write a program, which reads the table and prints all the columns separated with single pipe (‘|’). 
 
@@ -259,7 +259,7 @@ The first line of your table should look like this:
 		o You can find more information about Apache Maven here.
 		o After that follow, this guide to read the Excel file.
 
-## III.	Exceptions
+# III.	Exceptions
 
 ## Problem 7. Play Catch
 

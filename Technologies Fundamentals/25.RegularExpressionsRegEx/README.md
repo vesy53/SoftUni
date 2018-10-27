@@ -49,7 +49,7 @@ Write a program that extracts all sentences that contain a particular word from 
 |You need **to** allocate for study 20-30 hours weekly|
 |To be or not **to** be - that is the question        |
 
-### 3. Camera View
+## 3. Camera View
 
 You are an amateur photographer and you want to calculate what will be seen in your pictures.
 On the first line, you will receive an array of integers with exactly two elements:
@@ -71,7 +71,7 @@ Print all the taken views separated with ", ".
 |0 5                                           |beach           |
 |\|>invalid|<beach|noMoreCameras	       |                |
 
-### 4. Weather
+## 4. Weather
 
 You have to make a weather forecast about the weather depending on strings, which you receive from the console. Every string consists of data about the city, average temperature and weather type. You will receive strings until you receive the command “end”. 
 Every valid weather forecast consists of:
@@ -140,7 +140,7 @@ Print the concatenated message, if such exists or "Empty result", if it does not
 |A\|safafasfsadf\|B                                            |Empty result         |
 |NoMEssageABhereYeyAB                                          |                     |
 	
-### 6. * Valid Usernames
+## 6. * Valid Usernames
 
 You are part of the back-end development team of the next Facebook.
 You are given a line of usernames, separated by one of the following symbols: “ ”, “/”, “\”, “(“, “)”.

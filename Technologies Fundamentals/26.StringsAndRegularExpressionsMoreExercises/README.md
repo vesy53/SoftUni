@@ -81,11 +81,19 @@ Print what is left from the string after Pesho’s punches.
 ### Examples
 
 |Input	                        |Output	        |Comments
-|abv>1>1>2>2asdasd	        |abv>>>>dasd	|1st punch is at index 3 and it is with strength of 1. We delete| |                               |               |only the digit after the punch character. The string will look | |                               |               |like this: abv>>1>2>2asdasd                                    |
-|                               |               |2nd punch is with strength one and the string transforms to    | |                               |               |this: abv>>>2>2asdasd                                          |
-|                               |               |3rd punch is now with strength of 2. We delete the digit and we| |                               |               |find another punch. At this point the string looks like this:  | |                               |               |abv>>>>2asdasd.                                                |
-|                               |               |4th punch is with strength 2. We have 1 strength left from the | |                               |               |previous punch, we add the strength of the current punch to    | |                               |               |what is left and that adds up to a total strength of 3. We     | |                               |               |delete the next three characters and we receive the string     | |                               |               |abv>>>>dasd                                                    |
-|                               |               |We do not have any more punches and we print the result:       | |                               |               |abv>>>>dasd                                                    |
+|:---                           |:---           |:---                 
+|abv>1>1>2>2asdasd	        |abv>>>>dasd	|1st punch is at index 3 and it is with strength of 1. We delete|
+|                               |               |only the digit after the punch character. The string will look |
+|                               |               |like this: abv>>1>2>2asdasd                                    |
+|                               |               |2nd punch is with strength one and the string transforms to this:|
+|                               |               |abv>>>2>2asdasd                                                |
+|                               |               |3rd punch is now with strength of 2. We delete the digit and we|
+|                               |               |find another punch. At this point the string looks like this:  ||                               |               |abv>>>>2asdasd.                                                |
+|                               |               |4th punch is with strength 2. We have 1 strength left from the ||                               |               |previous punch, we add the strength of the current punch to what|
+|                               |               |is left and that adds up to a total strength of 3. We delete the|
+|                               |               |next three characters and we receive the string abv>>>>dasd     |
+|                               |               |We do not have any more punches and we print the result:       | 
+|                               |               |abv>>>>dasd                                                    |
 |-------------------------------|---------------|---------------------------------------------------------------|
 |pesho>2sis>1a>2akarate>4hexmaster|pesho>is>a>karate>master                                                     |
 

@@ -4,20 +4,20 @@
 
 Write a program, which greets the user by their name, which it reads from the console.
 
-## Step 1. Create a New C# Project, using Visual Studio
+### Step 1. Create a New C# Project, using Visual Studio
 
 Open Visual Studio and create a new project by going into [File -> New -> Project].
  
 After that, the project creation window will open.
 Select Visual C#, then Console Application and name it appropriately/
  
-## Step 2. Write the Program Logic
+### Step 2. Write the Program Logic
 
 A new file opens in the editor, which looks like this.
   
 Let’s write the program logic. We want to read a name and then print that name with some additional text on the console. To accomplish this, we’ll use Console.ReadLine() and Console.WriteLine().
  
-## Step 3. Test the Program
+### Step 3. Test the Program
 
 After we wrote the program logic, we can start our program, using [Ctrl+F5].
  
@@ -45,7 +45,7 @@ In Visual Studio, create a new project in our current solution by right clicking
  
 After that, name it appropriately and hit [OK].
 
-Step 2.	Change the Startup Project
+### Step 2. Change the Startup Project
 
 Now that you’ve created a new project inside the solution, you need to set the startup project to the currently selected project, otherwise whenever you hit [Ctrl+F5], the previous problem will start. So right click the solution and hit “Set Startup Projects”.
   	 

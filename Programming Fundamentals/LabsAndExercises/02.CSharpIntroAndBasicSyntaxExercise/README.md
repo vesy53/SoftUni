@@ -23,21 +23,22 @@ Write a program, which receives 4 integers on the console and prints them in 4-d
 |123    |                    |
 |22	|                    |
 
-### Problem 2. Rectangle Area
+## Problem 2. Rectangle Area
 
 Write a program, which calculates a rectangle’s area, based on its width and height. The width and height come as floating point numbers on the console, formatted to the 2nd character after the decimal point.
 
 ### Examples
 
-|Input	|Output|
-|2      |14.00 |
-|7	|      |
-|-------|------|
-|7      |56.00 |
-|8	|      |
-|-------|------|
-|12.33  |61.65 |
-|5	|      |
+|Input	|Output |
+|:---   |:---   |
+|2      |14.00  |
+|7	|       |
+|-------|-------|
+|7      |56.00  |
+|8	|       |
+|-------|-------|
+|12.33  |61.65  |
+|5	|       |
 
 ## Problem 3. Miles to Kilometers
 
@@ -46,11 +47,11 @@ Note: 1 mile == 1.60934 kilometers
 
 ### Examples
 
-|Input	 |Output|		
-|:---    |:---  |
-|60	 |96.56	|			
-|1	 |1.61  |
-|52.1113 |83.86 |
+|Input	|Output	|
+|:---   |:---   |	
+|60	|96.56	|	
+|1	|1.61	|	
+|52.1113|83.86  |
 
 ## Problem 4. Beverage Labels
 
@@ -59,9 +60,10 @@ Write a program, which reads a food product name, volume, energy content per 100
 	• Name – as per the input
 	• Volume – integer, suffixed by “ml” (e.g. “220ml”)
 	• Energy content – integer, suffixed by “kcal” (e.g. “500kcal”)
-	• Sugar content – real number, suffixed by “g” (e.g. “30g”)
- 
-### Examples
+	• Sugar content – real number, suffixed by “g” (e.g. “30g”) 
+
+Examples
+
 |Input	            |Output                    |
 |:---               |:---                      |
 |Nuka-Cola          |220ml Nuka-Cola:          |
@@ -92,7 +94,7 @@ Write a program, which displays information about a video game character. You wi
 |10     |Energy: ||||||||||.|           |
 |9      |                               |
 |10	|                               |
-|-------|-------------------------------|
+|-------|-------------------------------|		
 |Bauser |Name: Bauser                   |
 |10     |Health: ||||||||||||           |
 |10     |Energy: ||||||||||||           |
@@ -104,7 +106,7 @@ Write a program, which displays information about a video game character. You wi
 |20     |Energy: |||............|       |
 |2      |                               |
 |14	|                               |
-|-------|-------------------------------|
+|-------|-------------------------------|		
 |Toad   |Name: Toad                     |
 |0      |Health: |.....|                |
 |5      |Energy: |..........|           |

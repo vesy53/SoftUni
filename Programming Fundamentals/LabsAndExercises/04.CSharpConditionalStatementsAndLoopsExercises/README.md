@@ -219,7 +219,7 @@ Print all the numbers separated on new lines.
 |      |47     |      |99           |
 |      |48     |      |100	    |
 	
-### Problem 7. Cake Ingredients
+## Problem 7. Cake Ingredients
 
 Write a baking program, which takes as an input ingredients and writes a message when the ingredient is in the system. For every given ingredient, you should write: “Adding ingredient {name of the ingredient}.”. When you receive the command “Bake!” from the console you should stop the program and write “Preparing cake with {number of given ingredients} ingredients.”. 
 
@@ -311,7 +311,7 @@ Print only the total count of the numbers.
 |6               |       |              |       |
 |PF is the best! |	 |              |       |		
 	
-Problem 10.	Triangle of Numbers
+## Problem 10. Triangle of Numbers
 
 Write a program, which receives a number – n, and prints a triangle from 1 to n as in the examples.
 
@@ -319,7 +319,7 @@ Write a program, which receives a number – n, and prints a triangle from 1 to n 
 
 	• n will be in the interval [1...20].
 
-Examples
+### Examples
 
 |Input	|Output |Input|	Output	  |Input |Output     |
 |:---   |:---   |:--- |:---       |:---  |:---       |
@@ -330,7 +330,7 @@ Examples
 |       |       |     |5 5 5 5 5  |      |5 5 5 5 5  |		
 |       |       |     |           |      |6 6 6 6 6 6|
 
-### Problem 11. 5 Different Numbers
+## Problem 11. 5 Different Numbers
 
 You will be given two numbers – a and b. Generate five numbers - n1, n2, n3, n4, n5, for which the following conditions are true: a ? n1 < n2 < n3 < n4 ? n5 ? b. If there is no number in the given interval, which satisfies the conditions – print “No”.
 
@@ -349,6 +349,7 @@ Print all numbers in increasing order and on a new line.
 ### Examples
 
 |Input |Output	  |Input | Output	 |Input	|Output |
+|:---  |:---      |:---  |:---           |:---  |:---   |
 |3     |3 4 5 6 7 |40    |40 41 42 43 44 |13    |No     |
 |8     |3 4 5 6 8 |46    |40 41 42 43 45 |16    |       |
 |      |3 4 5 7 8 |      |40 41 42 43 46 |      |       |
@@ -371,7 +372,7 @@ Print all numbers in increasing order and on a new line.
 |      |          |      |41 43 44 45 46 |      |       |
 |      |          |      |42 43 44 45 46 |      |       |		
 
-### Problem 12. Test Numbers
+## Problem 12. Test Numbers
 
 Write a program, which finds all the possible combinations between two numbers – N and M.
 The first digit decreases from N to 1, and the second digit increases from 1 to M. The two digits form a number. Multiply the two digits, then multiply their product by 3. Add the result to the total sum. 
@@ -411,7 +412,7 @@ The output depends on the result:
 |50    |                |3rd: 18 + 3 * (1 * 1) = 21; 4th: 21 + 3 * (1 * 2) = 27	        |
 |      |                |Sum: 27 < 50 -> total 4 combinations                           |
 
-Problem 13.	Game of Numbers
+## Problem 13.	Game of Numbers
 
 Write a program, which finds all possible combinations in the interval between two numbers. The program should also find the last combination, in which a number’s digits are equal to a given magical number.
 
@@ -432,7 +433,7 @@ The output depends on the result:
 	• If such combination does not exist:
 		o "Total combinations: {total number of combinations} – neither equals {magical number}"
 
-## Examples
+### Examples
 
 |Input | Output         	| Comments                                                           |
 |:---  |:---                    |:---                                                                |
@@ -480,7 +481,7 @@ Print all combinations on a single line.
 |c     |cbc cca ccb ccc                                                                             |
 |z     |                                                                                            |
 
-### Problem 15. * Neighbour Wars
+## Problem 15. * Neighbour Wars
 
 Gosho and Pesho are neighbours, but they don’t like each other very much. They don’t like violence as well, so they decided they need a save environment where they can fight each other. They hired you to write a program, which calculates who would win the fight. 
 Gosho and Pesho have their own signature attacks – Gosho attacks with “Thunderous fist” on every even turn of the game and Pesho attacks with “Roundhouse kick” on every odd turn. You will receive how much damage these attacks do from the console.
@@ -525,7 +526,9 @@ When one of the players is dead print:
 |      |                                       |6th round -> Gosho attacks with 40 damage and kills      |
 |      |                                       |Pesho. They will not receive healing, because one of     |
 |      |                                       |the player is dead and we should print the final result. |
-|------|---------------------------------------|---------------------------------------------------------|
+
+|Input | Output                                                                                          |
+|:---  |:---                                                                                             |
 |20    |Pesho used Roundhouse kick and reduced Gosho to 80 health.                                       |
 |10    |Gosho used Thunderous fist and reduced Pesho to 90 health.                                       |	
 |      |Pesho used Roundhouse kick and reduced Gosho to 60 health.                                       |

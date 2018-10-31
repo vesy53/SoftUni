@@ -469,7 +469,9 @@ Print all combinations on a single line.
 |c     |                                |aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb    |
 |b     |	                        |bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc        |
 |      |                                |Combinations containing b are invalid.                     |
-|------|--------------------------------|-----------------------------------------------------------|
+
+|Input | Output                                                                                     |
+|:---  |:---                                                                                        |
 |f     |fff ffg ffi ffj ffk fgf fgg fgi fgj fgk fif fig fii fij fik fjf fjg fji fjj fjk fkf fkg fki |
 |k     |fkj fkk gff gfg gfi gfj gfk ggf ggg ggi ggj ggk gif gig gii gij gik gjf gjg gji gjj gjk gkf |
 |h     |gkg gki gkj gkk iff ifg ifi ifj ifk igf igg igi igj igk iif iig iii iij iik ijf ijg iji ijj |

@@ -65,7 +65,8 @@ Print on the console the time after 30 minutes. The result should be in format h
 
 ### Examples
 
-|Input	|Output	|			
+|Input	|Output	|
+|:---   |:---   |			
 |1      |2:16   |
 |46	|       |
 |-------|-------|		
@@ -127,7 +128,7 @@ Print the language, which the country speaks, or if it is unknown for your progr
 
 Think how you can merge multiple cases, in order to avoid writing more code than you need to.
 
-Problem 6. Theatre Promotions
+## Problem 6. Theatre Promotions
 
 A theatre is doing a ticket sale, but they need a program to calculate the price of a single ticket. If the given age does not fit one of the categories, you should print "Error!".  You can see the prices in the table below:
 
@@ -152,7 +153,8 @@ Print the price of the ticket according to the table, or "Error!" if the age is 
 
 ### Examples
 
-|Input	  |Output |			
+|Input	  |Output |
+|:---     |:---   |			
 |Weekday  |18$    |
 |42	  |	  |	
 |---------|-------|
@@ -164,8 +166,6 @@ Print the price of the ticket according to the table, or "Error!" if the age is 
 |---------|-------|
 |Weekend  |15$    |
 |122	  |       |
-
-### Solution
 
 #### Step 1. Read the Input
 
@@ -261,6 +261,7 @@ Print every row of the table in the following format:
 ### Examples
 
 |Input	|Output	     |Input   |Output	   |Input   |Output	   |
+|:---   |:---        |:---    |:---        |:---    |:---          |
 |5      |5 X 1 = 5   |2       |2 X 5 = 10  |2       |2 X 14 = 28   |
 |1	|5 X 2 = 10  |5       |2 X 6 = 12  |14      |              |
 |       |5 X 3 = 15  |        |2 X 7 = 14  |        |              |

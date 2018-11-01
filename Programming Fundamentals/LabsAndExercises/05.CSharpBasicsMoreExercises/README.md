@@ -6,6 +6,7 @@ Write a program, which prints an X figure with height n.
 N will be an odd number in the range [3…99].
 
 ### Examples
+### Postscript - See the table at README.md -> Edit file
 
 |Input	|Output |    |Input |Output |    |Input	|Output      |
 |:---   |:---   |:---|:---  |:---   |:---|:---  |:---	     |
@@ -138,7 +139,6 @@ The bars must always be rounded to the first digit after the decimal point (i.e.
 ### Examples
 
 |Input	|Output		 |    |Input |	Output		 |    |Input |	Output        |
-
 |:---   |:---            |:---|:---  |:---               |:---|:---  |:---            |
 |60     |15 bars - 1m 0s |    |128   |21.2 bars - 0m 39s |    |522   |20 bars - 0m 9s |
 |60	|	         |    |85    |                   |    |80    |                |

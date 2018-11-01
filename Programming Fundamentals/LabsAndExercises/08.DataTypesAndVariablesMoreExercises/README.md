@@ -9,10 +9,13 @@ Note: For this example, the Java’s byte corresponds to the C#’s sbyte.
 
 ### Examples
 
-Input	Output		Input	Output
-int	2147483647
--2147483648		byte	255
-0
+|Inpu   |Output	     |
+|:---   |:---        |	
+|int	|2147483647  |
+|       |-2147483648 |
+|-------|------------|		
+|byte   |255         |
+|       |0           |
 
 ### Hints
  
@@ -130,7 +133,7 @@ Always print the smallest possible option.
 
 	• On the first line, you will receive a number.
 
-Output
+### Output
 
 Print your prediction for the weather.
 

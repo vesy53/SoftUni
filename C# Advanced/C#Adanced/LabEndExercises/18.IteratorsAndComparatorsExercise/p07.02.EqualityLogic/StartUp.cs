@@ -10,9 +10,9 @@
             SortedSet<Person> sortedPeople = new SortedSet<Person>();
             HashSet<Person> hashPeople = new HashSet<Person>();
 
-            int num = int.Parse(Console.ReadLine());
+            int number = int.Parse(Console.ReadLine());
 
-            while (num-- > 0)
+            for (int i = 0; i < number; i++)
             {
                 string[] input = Console.ReadLine()
                     .Split();

@@ -36,11 +36,14 @@
         {
             if (this.elements.Length != 0)
             {
-                Console.WriteLine(this.elements[this.index]);
+                Console.WriteLine(
+                    this.elements[this.index]);
+
                 return;
             }
 
-            throw new InvalidOperationException("Invalid Operation!");
+            throw new InvalidOperationException(
+                "Invalid Operation!");
         }
     }
 }

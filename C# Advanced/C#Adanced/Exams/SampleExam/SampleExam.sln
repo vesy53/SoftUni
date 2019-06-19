@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.02.Hospital", "p01.02.H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.03.Hospital", "p01.03.Hospital\p01.03.Hospital.csproj", "{AC380E5E-00FC-4E4D-9BBB-2A562BA77DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.01.Sneaking", "p02.01.Sneaking\p02.01.Sneaking.csproj", "{97585C79-9C2F-427F-9761-8D87456DC8BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.01.Sneaking", "p02.01.Sneaking\p02.01.Sneaking.csproj", "{97585C79-9C2F-427F-9761-8D87456DC8BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.02.Sneaking", "p02.02.Sneaking\p02.02.Sneaking.csproj", "{F7CDA380-C3CF-44B4-976F-0C002C00824F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.02.Sneaking", "p02.02.Sneaking\p02.02.Sneaking.csproj", "{F7CDA380-C3CF-44B4-976F-0C002C00824F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03.01.SoftUniParking", "p03.01.SoftUniParking\p03.01.SoftUniParking.csproj", "{A4C1A882-6CCD-470F-947B-07071F81F72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F7CDA380-C3CF-44B4-976F-0C002C00824F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7CDA380-C3CF-44B4-976F-0C002C00824F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7CDA380-C3CF-44B4-976F-0C002C00824F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C1A882-6CCD-470F-947B-07071F81F72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C1A882-6CCD-470F-947B-07071F81F72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C1A882-6CCD-470F-947B-07071F81F72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C1A882-6CCD-470F-947B-07071F81F72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,20 +27,13 @@
 
         public override bool Equals(object obj)
         {
-            //Person person = obj as Person;
-            //
-            //if (person == null)
-            //{
-            //    return false;
-            //}
-
             if (obj is Person other)
             {
-                return this.Name == other.Name && this.Age == other.Age;
+                return this.Name == other.Name && 
+                       this.Age == other.Age;
             }
 
             return false;
-            //return this.Age == person.Age && this.Name == person.Name;
         }
 
         public override int GetHashCode()

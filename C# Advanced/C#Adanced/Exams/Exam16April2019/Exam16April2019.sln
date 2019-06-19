@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01.01.TrojanInvasion", "p01.01.TrojanInvasion\p01.01.TrojanInvasion.csproj", "{1908E022-8271-4B67-8B70-F8507E073213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.01.TrojanInvasion", "p01.01.TrojanInvasion\p01.01.TrojanInvasion.csproj", "{1908E022-8271-4B67-8B70-F8507E073213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.01.HelensAbduction", "p02.01.HelensAbduction\p02.01.HelensAbduction.csproj", "{19664BA3-E620-4A60-91D3-15AF7BE4FB1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.01.HelensAbduction", "p02.01.HelensAbduction\p02.01.HelensAbduction.csproj", "{19664BA3-E620-4A60-91D3-15AF7BE4FB1E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FightingArena", "..\..\..\..\..\..\FightingArena\FightingArena\FightingArena.csproj", "{990F8D2E-1631-4689-B54F-AB4EC4C896DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03.01.FightingArena", "p03.01.FightingArena\p03.01.FightingArena.csproj", "{9D395463-CBDB-4772-A3CE-7509787CBCB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.01.FightingArena", "p03.01.FightingArena\p03.01.FightingArena.csproj", "{9D395463-CBDB-4772-A3CE-7509787CBCB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.02.TrojanInvasion", "p01.02.TrojanInvasion\p01.02.TrojanInvasion.csproj", "{5527F285-9E89-46B8-AB74-785ADF2EE52E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.02.HelensAbduction", "p02.02.HelensAbduction\p02.02.HelensAbduction.csproj", "{3D575571-356E-452B-8C5D-9A9DBBAA58F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.03.HelensAbduction", "p02.03.HelensAbduction\p02.03.HelensAbduction.csproj", "{9331D43F-F0CF-4DD1-AEE6-F24C05F67F57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{9D395463-CBDB-4772-A3CE-7509787CBCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D395463-CBDB-4772-A3CE-7509787CBCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D395463-CBDB-4772-A3CE-7509787CBCB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5527F285-9E89-46B8-AB74-785ADF2EE52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5527F285-9E89-46B8-AB74-785ADF2EE52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5527F285-9E89-46B8-AB74-785ADF2EE52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5527F285-9E89-46B8-AB74-785ADF2EE52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D575571-356E-452B-8C5D-9A9DBBAA58F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D575571-356E-452B-8C5D-9A9DBBAA58F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D575571-356E-452B-8C5D-9A9DBBAA58F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D575571-356E-452B-8C5D-9A9DBBAA58F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9331D43F-F0CF-4DD1-AEE6-F24C05F67F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9331D43F-F0CF-4DD1-AEE6-F24C05F67F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9331D43F-F0CF-4DD1-AEE6-F24C05F67F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9331D43F-F0CF-4DD1-AEE6-F24C05F67F57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

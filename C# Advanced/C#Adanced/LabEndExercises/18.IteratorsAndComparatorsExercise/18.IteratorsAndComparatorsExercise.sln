@@ -39,9 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p08.01.PetClinics", "p08.01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p07.02.EqualityLogic", "p07.02.EqualityLogic\p07.02.EqualityLogic.csproj", "{6B848EDC-F542-4D80-B389-061AA1726C41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p08.02.PetClinics", "p08.02.PetClinics\p08.02.PetClinics.csproj", "{63A397CC-D6C6-4C21-85B3-44D2FCE05D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p08.02.PetClinics", "p08.02.PetClinics\p08.02.PetClinics.csproj", "{63A397CC-D6C6-4C21-85B3-44D2FCE05D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p08.03.PetClinics", "p08.03.PetClinics\p08.03.PetClinics.csproj", "{E82BF276-915E-494E-92A3-C180AB05AB40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p08.03.PetClinics", "p08.03.PetClinics\p08.03.PetClinics.csproj", "{E82BF276-915E-494E-92A3-C180AB05AB40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p09.01.CustomLinkedList", "p09.01.CustomLinkedList\p09.01.CustomLinkedList.csproj", "{A661952F-2CFA-4D0B-A731-F6D467B7BF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p09.02.CustomLinkedList", "p09.02.CustomLinkedList\p09.02.CustomLinkedList.csproj", "{3461FDAD-2EB9-416D-90D0-ECCA545AB02C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{E82BF276-915E-494E-92A3-C180AB05AB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E82BF276-915E-494E-92A3-C180AB05AB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E82BF276-915E-494E-92A3-C180AB05AB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A661952F-2CFA-4D0B-A731-F6D467B7BF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A661952F-2CFA-4D0B-A731-F6D467B7BF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A661952F-2CFA-4D0B-A731-F6D467B7BF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A661952F-2CFA-4D0B-A731-F6D467B7BF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3461FDAD-2EB9-416D-90D0-ECCA545AB02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3461FDAD-2EB9-416D-90D0-ECCA545AB02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3461FDAD-2EB9-416D-90D0-ECCA545AB02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3461FDAD-2EB9-416D-90D0-ECCA545AB02C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

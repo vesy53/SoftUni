@@ -33,7 +33,8 @@
                 return false;
             }
 
-            return this.Name == person.Name && this.Age == person.Age;
+            return this.Name == person.Name && 
+                   this.Age == person.Age;
         }
 
         public override int GetHashCode()

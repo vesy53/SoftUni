@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01.01.ClubParty", "p01.01.ClubParty\p01.01.ClubParty.csproj", "{B51364CD-81F9-4342-A00C-B299CE5E0195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.01.ClubParty", "p01.01.ClubParty\p01.01.ClubParty.csproj", "{B51364CD-81F9-4342-A00C-B299CE5E0195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.01.TronRacers", "p02.01.TronRacers\p02.01.TronRacers.csproj", "{61387EFE-703D-4BFB-AA59-C7EE8AB45C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.01.TronRacers", "p02.01.TronRacers\p02.01.TronRacers.csproj", "{61387EFE-703D-4BFB-AA59-C7EE8AB45C75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heroes", "..\..\..\..\..\..\Heroes\Heroes.csproj", "{6787E933-B250-42B4-A50F-F7CD01E89570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03.01.Heroes", "p03.01.Heroes\p03.01.Heroes.csproj", "{DD937241-D76E-4F20-AE06-0CF726CC270F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.01.Heroes", "p03.01.Heroes\p03.01.Heroes.csproj", "{DD937241-D76E-4F20-AE06-0CF726CC270F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.02.ClubParty", "p01.02.ClubParty\p01.02.ClubParty.csproj", "{855897F1-4C78-409C-98BC-B27FBD541019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.02.TronRacers", "p02.02.TronRacers\p02.02.TronRacers.csproj", "{AE977A8A-8F43-4484-ADCA-13E89AD7497D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DD937241-D76E-4F20-AE06-0CF726CC270F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD937241-D76E-4F20-AE06-0CF726CC270F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD937241-D76E-4F20-AE06-0CF726CC270F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855897F1-4C78-409C-98BC-B27FBD541019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855897F1-4C78-409C-98BC-B27FBD541019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855897F1-4C78-409C-98BC-B27FBD541019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855897F1-4C78-409C-98BC-B27FBD541019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE977A8A-8F43-4484-ADCA-13E89AD7497D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE977A8A-8F43-4484-ADCA-13E89AD7497D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE977A8A-8F43-4484-ADCA-13E89AD7497D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE977A8A-8F43-4484-ADCA-13E89AD7497D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

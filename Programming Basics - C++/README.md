@@ -14,7 +14,7 @@
 
 <li><a href="https://github.com/vesy53/SoftUni/tree/master/Programming%20Basics%20-%20C%2B%2B/LabEndExercises/05.SimpleLoops" > Simple Loops </a></li>
 
-<li><a href="https://github.com/vesy53/SoftUni/tree/master/Programming%20Basics%20-%20C%2B%2B/LabEndExercises/06.DrawingWithLoops" > Drawing WithLoops </a></li>
+<li><a href="https://github.com/vesy53/SoftUni/tree/master/Programming%20Basics%20-%20C%2B%2B/LabEndExercises/06.DrawingWithLoops" > Drawing With Loops </a></li>
 
 <li><a href="https://github.com/vesy53/SoftUni/tree/master/Programming%20Basics%20-%20C%2B%2B/LabEndExercises/07.AdvancedLoops" > Advanced Loops </a></li>
 </ol>

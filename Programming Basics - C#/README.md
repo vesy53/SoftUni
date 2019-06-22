@@ -1,6 +1,6 @@
 # Programming Basics C#
 
-## Курсът "Programming Basics" дава начални умения по програмиране, необходими за всички технологични специалности в СофтУни. Това включва писане на програмен код на начално ниво (basic coding skills), работа със среда за разработка (IDE), използване на променливи и данни, оператори и изрази, работа с конзолата (четене на входни данни и печатане на резултати), използване на условни конструкции (if, if-else) и цикли (for, while, do-while).
+## The "Programming Basics" course gives you the initial programming skills required for all Technology specialties at Softuny. This includes writing basic code skills, working with development environment (IDE), using variables and data, operators and expressions, working with the console (reading input data and printing results), using conditional constructions (if, if-else) and cycles (for, while, do-while).
 
 ## Lab and Exercises
 

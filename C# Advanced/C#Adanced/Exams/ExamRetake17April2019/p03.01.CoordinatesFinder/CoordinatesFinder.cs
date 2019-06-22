@@ -5,17 +5,16 @@
     using System.Text.RegularExpressions;
 
     class CoordinatesFinder
-    {
+    {  
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
 
+            Regex regex = new Regex(
+                @"^(?<peakname>[A-Za-z0-9!?@$#]*)=(?<length>\d*)<<(?<code>[A-Za-z\d!?@$#]*)$");
+
             StringBuilder builder = new StringBuilder();
 
-            Regex regex = new Regex(
-                @"^(?<peakname>[A-Za-z!?@$#]*)=(?<length>\d*)<<(?<code>[A-Za-z\d!?@$#]*)$");
-            
-            
             while (input.Equals("Last note") == false)
             {
                 Match match = regex.Match(input);
@@ -34,18 +33,20 @@
                         continue;
                     }
 
-                    Regex letterRegex = new Regex(@"[A-Za-z]*");
+                    Regex peaknameRegex = new Regex(@"[A-Za-z0-9]*");
 
-                    MatchCollection peeknameArr = letterRegex.Matches(totalPeakname);
+                    MatchCollection peeknameArray = peaknameRegex
+                        .Matches(totalPeakname);
 
                     string peekname = string.Empty;
 
-                    foreach (object letters in peeknameArr)
+                    foreach (object element in peeknameArray)
                     {
-                        peekname += letters;
+                        peekname += element;
                     }
 
-                    builder.AppendLine($"Coordinates found! {peekname} -> {code}");
+                    builder.AppendLine(
+                        $"Coordinates found! {peekname} -> {code}");
                 }
                 else
                 {

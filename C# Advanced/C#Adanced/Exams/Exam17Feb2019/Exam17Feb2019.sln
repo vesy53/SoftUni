@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.02.Socks", "p01.02.Sock
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.02.ExcelFunctions", "p02.02.ExcelFunctions\p02.02.ExcelFunctions.csproj", "{46B4F7A4-BFE9-4B30-B284-D86273DE27AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\..\..\..\..\..\Repository\Repository.csproj", "{AAEF4663-2FA6-4374-99EB-9BEACC62D408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.02.Repository", "..\..\..\..\..\..\Repository\p03.02.Repository.csproj", "{AAEF4663-2FA6-4374-99EB-9BEACC62D408}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

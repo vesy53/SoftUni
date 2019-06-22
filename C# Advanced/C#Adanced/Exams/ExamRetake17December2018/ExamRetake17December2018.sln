@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01.01.SportCards", "p01.01.SportCards\p01.01.SportCards.csproj", "{405DE922-DB65-4663-80CF-22BB9D76AEB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.01.SportCards", "p01.01.SportCards\p01.01.SportCards.csproj", "{405DE922-DB65-4663-80CF-22BB9D76AEB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.01.RobotCommunication", "p02.01.RobotCommunication\p02.01.RobotCommunication.csproj", "{A96BAFD2-4AA2-4F5D-8582-9D535F13B725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.01.RobotCommunication", "p02.01.RobotCommunication\p02.01.RobotCommunication.csproj", "{A96BAFD2-4AA2-4F5D-8582-9D535F13B725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03.01.Bombs", "p03.01.Bombs\p03.01.Bombs.csproj", "{996F078B-5D22-4DC5-A0B4-F962E43B6A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.01.Bombs", "p03.01.Bombs\p03.01.Bombs.csproj", "{996F078B-5D22-4DC5-A0B4-F962E43B6A02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04.01.TheKitchen", "p04.01.TheKitchen\p04.01.TheKitchen.csproj", "{B27BCFC0-020F-4355-919D-F763FA7255F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p04.01.TheKitchen", "p04.01.TheKitchen\p04.01.TheKitchen.csproj", "{B27BCFC0-020F-4355-919D-F763FA7255F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.02.SportCards", "p01.02.SportCards\p01.02.SportCards.csproj", "{9278C75B-505D-40D7-8765-AD0CABA0050F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.02.Bombs", "p03.02.Bombs\p03.02.Bombs.csproj", "{37EC6DB8-B4D5-486C-B3DC-3CF5A71C2CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04.02.TheKitchen", "p04.02.TheKitchen\p04.02.TheKitchen.csproj", "{C7947145-DADF-444A-92EF-7ED4752A5018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{B27BCFC0-020F-4355-919D-F763FA7255F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27BCFC0-020F-4355-919D-F763FA7255F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27BCFC0-020F-4355-919D-F763FA7255F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9278C75B-505D-40D7-8765-AD0CABA0050F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9278C75B-505D-40D7-8765-AD0CABA0050F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9278C75B-505D-40D7-8765-AD0CABA0050F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9278C75B-505D-40D7-8765-AD0CABA0050F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EC6DB8-B4D5-486C-B3DC-3CF5A71C2CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EC6DB8-B4D5-486C-B3DC-3CF5A71C2CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EC6DB8-B4D5-486C-B3DC-3CF5A71C2CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EC6DB8-B4D5-486C-B3DC-3CF5A71C2CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7947145-DADF-444A-92EF-7ED4752A5018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7947145-DADF-444A-92EF-7ED4752A5018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7947145-DADF-444A-92EF-7ED4752A5018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7947145-DADF-444A-92EF-7ED4752A5018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

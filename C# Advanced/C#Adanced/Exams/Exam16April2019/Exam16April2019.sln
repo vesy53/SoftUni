@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.02.TrojanInvasion", "p0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.02.HelensAbduction", "p02.02.HelensAbduction\p02.02.HelensAbduction.csproj", "{3D575571-356E-452B-8C5D-9A9DBBAA58F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.03.HelensAbduction", "p02.03.HelensAbduction\p02.03.HelensAbduction.csproj", "{9331D43F-F0CF-4DD1-AEE6-F24C05F67F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.03.HelensAbduction", "p02.03.HelensAbduction\p02.03.HelensAbduction.csproj", "{9331D43F-F0CF-4DD1-AEE6-F24C05F67F57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

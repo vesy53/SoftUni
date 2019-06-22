@@ -7,11 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.01.CatapultAttack", "p0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.01.ThroneConquering", "p02.01.ThroneConquering\p02.01.ThroneConquering.csproj", "{DF7D639B-5F67-4960-A15C-555CF6CF656B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01.02.CatapultAttack", "p01.02.CatapultAttack\p01.02.CatapultAttack.csproj", "{29D298EF-8AFD-43E7-ADAF-678E22206FE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.02.CatapultAttack", "p01.02.CatapultAttack\p01.02.CatapultAttack.csproj", "{29D298EF-8AFD-43E7-ADAF-678E22206FE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03.01.CoordinatesFinder", "p03.01.CoordinatesFinder\p03.01.CoordinatesFinder.csproj", "{86FF1015-BE7D-4A6F-A5BF-7B7892D4AE0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.01.CoordinatesFinder", "p03.01.CoordinatesFinder\p03.01.CoordinatesFinder.csproj", "{86FF1015-BE7D-4A6F-A5BF-7B7892D4AE0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04.01.TravelMap", "p04.01.TravelMap\p04.01.TravelMap.csproj", "{F6101BDF-3A59-404B-9E0B-95DEFE235090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p04.01.TravelMap", "p04.01.TravelMap\p04.01.TravelMap.csproj", "{F6101BDF-3A59-404B-9E0B-95DEFE235090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.03.CatapultAttack", "p01.03.CatapultAttack\p01.03.CatapultAttack.csproj", "{8264FAFA-117D-457A-9354-725550C8AE5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.02.ThroneConquering", "p02.02.ThroneConquering\p02.02.ThroneConquering.csproj", "{66CFB527-7A24-4827-BC9B-CEA2837D9385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04.02.TravelMap", "p04.02.TravelMap\p04.02.TravelMap.csproj", "{FBC4F5EC-F056-4CB5-A5B1-8F2D101145D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{F6101BDF-3A59-404B-9E0B-95DEFE235090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6101BDF-3A59-404B-9E0B-95DEFE235090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6101BDF-3A59-404B-9E0B-95DEFE235090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8264FAFA-117D-457A-9354-725550C8AE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8264FAFA-117D-457A-9354-725550C8AE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8264FAFA-117D-457A-9354-725550C8AE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8264FAFA-117D-457A-9354-725550C8AE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CFB527-7A24-4827-BC9B-CEA2837D9385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CFB527-7A24-4827-BC9B-CEA2837D9385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CFB527-7A24-4827-BC9B-CEA2837D9385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CFB527-7A24-4827-BC9B-CEA2837D9385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC4F5EC-F056-4CB5-A5B1-8F2D101145D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC4F5EC-F056-4CB5-A5B1-8F2D101145D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC4F5EC-F056-4CB5-A5B1-8F2D101145D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC4F5EC-F056-4CB5-A5B1-8F2D101145D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

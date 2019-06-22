@@ -40,7 +40,7 @@
                 else if (knive == fork)
                 {
                     queueForks.Dequeue();
-                    stackKnives.Push(knive + 1);
+                    stackKnives.Push(++knive);
                 }
             }
 

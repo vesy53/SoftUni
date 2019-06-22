@@ -116,7 +116,7 @@
 
 </li>
 
-- <a href="https://github.com/vesy53/SoftUni/tree/master/C%23%20Advanced/C%23Adanced/Exams/DemoExam16June2019" > Exam 16 June 2019 </a>
+- <a href="https://github.com/vesy53/SoftUni/tree/master/C%23%20Advanced/C%23Adanced/Exams/DemoExam16June2019" > Demo Exam 16 June 2019 </a>
 
 
 </li>

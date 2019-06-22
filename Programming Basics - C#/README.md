@@ -1,4 +1,4 @@
-# Programming Basics C#
+# <a><p align="center">  Programming Basics C# </p></a>
 
 ## The "Programming Basics" course gives you the initial programming skills required for all Technology specialties at Softuny. This includes writing basic code skills, working with development environment (IDE), using variables and data, operators and expressions, working with the console (reading input data and printing results), using conditional constructions (if, if-else) and cycles (for, while, do-while).
 

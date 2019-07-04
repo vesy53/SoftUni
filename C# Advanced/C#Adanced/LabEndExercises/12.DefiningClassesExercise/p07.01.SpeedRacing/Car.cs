@@ -52,7 +52,7 @@
 
             if (this.FuelAmount >= totalKm)
             {
-                this.FuelAmount -= FuelConsumptionFor1km * amountOfKm;
+                this.FuelAmount -= totalKm;
                 this.TraveledDistance += amountOfKm;
             }
             else

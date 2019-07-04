@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01", "p01\p01.csproj", "{D497FFE8-C637-4F2D-89B4-EC3D4C5849F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.01.SpaceshipCrafting", "p01\p01.01.SpaceshipCrafting.csproj", "{D497FFE8-C637-4F2D-89B4-EC3D4C5849F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02", "p02\p02.csproj", "{67D4EDA3-FA5B-4106-A840-A2D5EC72F388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.00.SpaceStationEstablishment", "p02\p03.00.SpaceStationEstablishment.csproj", "{67D4EDA3-FA5B-4106-A840-A2D5EC72F388}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceStationRecruitment", "..\..\..\..\..\..\SpaceStation Recruitment\SpaceStationRecruitment.csproj", "{FA050FFA-AE49-454A-A813-D72AE06E31E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01.02.SpaceshipCrafting", "p01.02.SpaceshipCrafting\p01.02.SpaceshipCrafting.csproj", "{7F44701D-FCDE-4C1F-B097-0E35DA80C24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.01.SpaceStationRecruitment", "p02.01.SpaceStationRecruitment\p02.01.SpaceStationRecruitment.csproj", "{B29EF203-E835-4F9C-B686-2221805E72F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03.01.SpaceStationEstablishment", "p03.01.SpaceStationEstablishment\p03.01.SpaceStationEstablishment.csproj", "{C5F8B654-7738-435A-99A5-60EC1305C170}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{67D4EDA3-FA5B-4106-A840-A2D5EC72F388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D4EDA3-FA5B-4106-A840-A2D5EC72F388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D4EDA3-FA5B-4106-A840-A2D5EC72F388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA050FFA-AE49-454A-A813-D72AE06E31E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA050FFA-AE49-454A-A813-D72AE06E31E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA050FFA-AE49-454A-A813-D72AE06E31E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA050FFA-AE49-454A-A813-D72AE06E31E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F44701D-FCDE-4C1F-B097-0E35DA80C24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F44701D-FCDE-4C1F-B097-0E35DA80C24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F44701D-FCDE-4C1F-B097-0E35DA80C24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F44701D-FCDE-4C1F-B097-0E35DA80C24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29EF203-E835-4F9C-B686-2221805E72F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29EF203-E835-4F9C-B686-2221805E72F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29EF203-E835-4F9C-B686-2221805E72F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29EF203-E835-4F9C-B686-2221805E72F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F8B654-7738-435A-99A5-60EC1305C170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F8B654-7738-435A-99A5-60EC1305C170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F8B654-7738-435A-99A5-60EC1305C170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F8B654-7738-435A-99A5-60EC1305C170}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

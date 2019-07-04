@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01.01.ClassBox", "p01.01.ClassBox\p01.01.ClassBox.csproj", "{00A08179-1863-417E-9420-86935FF0973A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.01.ClassBoxDataValidation", "p02.01.ClassBoxDataValidation\p02.01.ClassBoxDataValidation.csproj", "{A5C79A9E-B329-4E39-8911-7CF1340462A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00A08179-1863-417E-9420-86935FF0973A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A08179-1863-417E-9420-86935FF0973A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A08179-1863-417E-9420-86935FF0973A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A08179-1863-417E-9420-86935FF0973A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C79A9E-B329-4E39-8911-7CF1340462A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C79A9E-B329-4E39-8911-7CF1340462A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C79A9E-B329-4E39-8911-7CF1340462A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C79A9E-B329-4E39-8911-7CF1340462A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C043BBF-3120-403F-B0A3-10E1F1CFC10F}
+	EndGlobalSection
+EndGlobal

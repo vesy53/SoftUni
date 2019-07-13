@@ -2,6 +2,8 @@
 {
     using System;
 
+    using Person.People;
+
     public class StartUp
     {
         public static void Main(string[] args)

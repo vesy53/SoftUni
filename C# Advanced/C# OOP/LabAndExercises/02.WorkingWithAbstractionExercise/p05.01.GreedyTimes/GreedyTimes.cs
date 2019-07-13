@@ -104,6 +104,7 @@
                 }
 
                 data[itemName][name] += quantity;
+
                 if (itemName == "Gold")
                 {
                     gold += quantity;

@@ -30,10 +30,8 @@
                 {
                     value = 0;
                 }
-                else
-                {
-                    this.fuelQuantity = value;
-                }
+
+                this.fuelQuantity = value;
             }
         }
 

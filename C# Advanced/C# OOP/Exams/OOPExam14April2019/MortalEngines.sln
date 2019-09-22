@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortalEngines", "MortalEngines.csproj", "{AB159493-5905-421F-BDBF-2F62876CE973}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telecom", "Telecom\Telecom.csproj", "{19136B07-A498-45FB-9BA9-1DFA307E188C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telecom.Tests", "Telecom.Tests\Telecom.Tests.csproj", "{17253056-7FAE-4829-974F-A2D261950FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB159493-5905-421F-BDBF-2F62876CE973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB159493-5905-421F-BDBF-2F62876CE973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB159493-5905-421F-BDBF-2F62876CE973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB159493-5905-421F-BDBF-2F62876CE973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19136B07-A498-45FB-9BA9-1DFA307E188C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19136B07-A498-45FB-9BA9-1DFA307E188C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19136B07-A498-45FB-9BA9-1DFA307E188C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19136B07-A498-45FB-9BA9-1DFA307E188C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17253056-7FAE-4829-974F-A2D261950FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17253056-7FAE-4829-974F-A2D261950FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17253056-7FAE-4829-974F-A2D261950FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17253056-7FAE-4829-974F-A2D261950FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {146887A7-988B-4E10-AC16-5A2392052302}
+	EndGlobalSection
+EndGlobal
